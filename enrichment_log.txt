@@ -1,0 +1,1054 @@
+Enriching 589 restaurants...
+Already cached: 10
+
+[11/589] CHIPOTLE MEXICAN GRILL #3056
+    [Hunter] credit cap reached (0), skipping
+[12/589] HAN DYNASTY
+    [Hunter] credit cap reached (0), skipping
+[13/589] DOSA ROYALE
+    [Hunter] credit cap reached (0), skipping
+[14/589] BEEF UP NOODLE 2
+    [Hunter] credit cap reached (0), skipping
+[15/589] NOUNOU NOODLE BAR
+    [Hunter] credit cap reached (0), skipping
+[16/589] BRIDGES
+    [Hunter] credit cap reached (0), skipping
+[17/589] BOGART HOUSE
+    [Hunter] credit cap reached (0), skipping
+[18/589] AMARONE
+    [Hunter] credit cap reached (0), skipping
+[19/589] HANAYA OMAKASE
+[20/589] NINO'S PIZZERIA
+    [Hunter] credit cap reached (0), skipping
+[21/589] THE PARIS CAFE
+    [Hunter] credit cap reached (0), skipping
+[22/589] KITARO
+    [Hunter] credit cap reached (0), skipping
+[23/589] KARAOKE CITY
+    [Hunter] credit cap reached (0), skipping
+[24/589] NACHA FOCACCIA
+    [Hunter] credit cap reached (0), skipping
+[25/589] MCDONALD'S
+    [Hunter] credit cap reached (0), skipping
+[26/589] THE CROWN
+    [Hunter] credit cap reached (0), skipping
+[27/589] HARLEM AMOR
+    [Hunter] credit cap reached (0), skipping
+[28/589] LE GIGOT
+    [Hunter] credit cap reached (0), skipping
+[29/589] AUNTY JENNY
+    [Hunter] credit cap reached (0), skipping
+[30/589] BAKE AND SCOOP
+[31/589] COSTELLO'S CLADDAGH INN
+[32/589] MARISCOS EL SUBMARINO
+    [Hunter] credit cap reached (0), skipping
+[33/589] BEA
+    [Hunter] credit cap reached (0), skipping
+[34/589] APERITIVO DI PALMA
+    [Hunter] credit cap reached (0), skipping
+[35/589] SUNSET STOOP
+    [Hunter] credit cap reached (0), skipping
+[36/589] HAAGEN DAZS
+    [Hunter] credit cap reached (0), skipping
+[37/589] MOON AND BACK
+    [Hunter] credit cap reached (0), skipping
+[38/589] HINDS HALL
+    [Hunter] credit cap reached (0), skipping
+[39/589] BRISSTA
+[40/589] HASALON
+    [Hunter] credit cap reached (0), skipping
+[41/589] MTSKHETA-USA INC
+    [Hunter] credit cap reached (0), skipping
+[42/589] BOJANGLES
+    [Hunter] credit cap reached (0), skipping
+[43/589] ANTS COFFEE
+    [Hunter] credit cap reached (0), skipping
+[44/589] HALAL CHICKS & PLATTERS
+[45/589] LAMONTE PIZZA
+    [Hunter] credit cap reached (0), skipping
+[46/589] BK PIZZA
+    [Hunter] credit cap reached (0), skipping
+[47/589] BAOS & BOWLS
+    [Hunter] credit cap reached (0), skipping
+[48/589] GROWL GROWL HOT POT & COCKTAIL
+    [Hunter] credit cap reached (0), skipping
+[49/589] TRE SORELLE
+    [Hunter] credit cap reached (0), skipping
+[50/589] THE COPPOLA CAFE
+[51/589] MITANI NEW YORK
+[52/589] THE GEM SALOON
+    [Hunter] credit cap reached (0), skipping
+[53/589] BARLUME
+    [Hunter] credit cap reached (0), skipping
+[54/589] ART MIDTOWN
+    [Hunter] credit cap reached (0), skipping
+[55/589] HIGH BAR ROOF TOP
+    [Hunter] credit cap reached (0), skipping
+[56/589] BENJI'S BUNS
+    [Hunter] credit cap reached (0), skipping
+[57/589] BUDDY'S
+    [Hunter] credit cap reached (0), skipping
+[58/589] SUSHI KING
+    [Hunter] credit cap reached (0), skipping
+[59/589] BISTROT 3 TOROS
+    [Hunter] credit cap reached (0), skipping
+[60/589] CHOPPED PARSLEY
+    [Hunter] credit cap reached (0), skipping
+[61/589] SEVEN FISH CUISINE
+    [Hunter] credit cap reached (0), skipping
+[62/589] BURGER KING
+    [Hunter] credit cap reached (0), skipping
+[63/589] ROLLCRAFT
+[64/589] PHO TABLE
+    [Hunter] credit cap reached (0), skipping
+[65/589] JR VALLE RESTAURANT
+[66/589] PUNJABI CHAAP CORNER
+    [Hunter] credit cap reached (0), skipping
+[67/589] Aris pizza
+    [Hunter] credit cap reached (0), skipping
+[68/589] SHAH'S HALAL FOOD
+    [Hunter] credit cap reached (0), skipping
+[69/589] THE G.O.A.T
+    [Hunter] credit cap reached (0), skipping
+[70/589] DUNKIN/MICHAEL H. OLLIS FERRY BOATS TAVERN
+    [Hunter] credit cap reached (0), skipping
+[71/589] INDIA HOUSE
+[72/589] TERA MERA
+    [Hunter] credit cap reached (0), skipping
+[73/589] BLOSSOM KITCHEN
+    [Hunter] credit cap reached (0), skipping
+[74/589] CANTINA ROOFTOP
+    [Hunter] credit cap reached (0), skipping
+[75/589] HUDSON VU ROOFTOP (INK 48 HOTEL)
+    [Hunter] credit cap reached (0), skipping
+[76/589] ASPHALT GREEN CAFE
+    [Hunter] credit cap reached (0), skipping
+[77/589] DRAGON CITY
+    [Hunter] credit cap reached (0), skipping
+[78/589] MADO RESTAURANT DU MONDE
+[79/589] ROKSTAR CHICKEN
+    [Hunter] credit cap reached (0), skipping
+[80/589] BROOKLYN CAFE & EATERY
+    [Hunter] credit cap reached (0), skipping
+[81/589] EGGCELLENT TACOS
+[82/589] MIXED INGREDIENTS
+    [Hunter] credit cap reached (0), skipping
+[83/589] SWEET & FAVORITE CAKE SHOP
+    [Hunter] credit cap reached (0), skipping
+[84/589] PIZZA POINT
+    [Hunter] credit cap reached (0), skipping
+[85/589] HOM CAFE & WINE
+    [Hunter] credit cap reached (0), skipping
+[86/589] HAPPY SANDWICH & DRINK
+[87/589] COLBO
+    [Hunter] credit cap reached (0), skipping
+[88/589] FERMENTO
+    [Hunter] credit cap reached (0), skipping
+[89/589] CAFE AT THE BROOKLYN MUSEUM
+    [Hunter] credit cap reached (0), skipping
+[90/589] HOUSE OF DOMES
+    [Hunter] credit cap reached (0), skipping
+[91/589] SAMA'ZA
+    [Hunter] credit cap reached (0), skipping
+[92/589] WATCHHOUSE COFFEE
+    [Hunter] credit cap reached (0), skipping
+[93/589] TAWNY
+    [Hunter] credit cap reached (0), skipping
+[94/589] King Wok
+[95/589] POPS PIZZA
+    [Hunter] credit cap reached (0), skipping
+[96/589] FRIED RICE KING
+[97/589] LA LUZ DEL PUENTE
+[98/589] GREY DOG
+    [Hunter] credit cap reached (0), skipping
+[99/589] LUCI'S CAFE
+[100/589] HALAL MUNCHIES
+    [Hunter] credit cap reached (0), skipping
+[101/589] MCDONALD'S
+    [Hunter] credit cap reached (0), skipping
+[102/589] BEST WESTERN PREMIER
+    [Hunter] credit cap reached (0), skipping
+[103/589] XI'AN FAMOUS FOODS
+    [Hunter] credit cap reached (0), skipping
+[104/589] OLD HOMESTEAD
+    [Hunter] credit cap reached (0), skipping
+[105/589] YAWNING COBRA
+    [Hunter] credit cap reached (0), skipping
+[106/589] AVE J PIZZA
+    [Hunter] credit cap reached (0), skipping
+[107/589] JOSEPH BROTHERS AT THE HUGH
+    [Hunter] credit cap reached (0), skipping
+[108/589] UNCLE ROGERS BAR/LACEY BURGER
+[109/589] MISS YOLO'S TACOS
+    [Hunter] credit cap reached (0), skipping
+[110/589] DUE FRATELLI
+    [Hunter] credit cap reached (0), skipping
+[111/589] SAAMO CAFE
+[112/589] CORNER BAR / SWAN ROOM
+    [Hunter] credit cap reached (0), skipping
+[113/589] LADY MOO MOO
+    [Hunter] credit cap reached (0), skipping
+[114/589] BURGER KING
+[115/589] BEFINE CHA
+[116/589] GENKI EAST OMAKASE
+[117/589] THE BROTHERS CARIBBEAN RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[118/589] PAISA PICAPOLLO
+    [Hunter] credit cap reached (0), skipping
+[119/589] APOLLO 590 CAFE
+    [Hunter] credit cap reached (0), skipping
+[120/589] HOLY SCHNITZEL
+    [Hunter] credit cap reached (0), skipping
+[121/589] CORNER BISTRO EAST
+[122/589] HAUNGQI FISH BALLS INC
+    [Hunter] credit cap reached (0), skipping
+[123/589] Gotham City Billiards
+    [Hunter] credit cap reached (0), skipping
+[124/589] COFFEECCINO
+    [Hunter] credit cap reached (0), skipping
+[125/589] MANOLO TAPAS RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[126/589] VICTORIA PIZZA
+    [Hunter] credit cap reached (0), skipping
+[127/589] GOLDEN STEAMER
+[128/589] Q&I Bakery
+[129/589] MR. BROADWAY
+    [Hunter] credit cap reached (0), skipping
+[130/589] HALSEY GRILL TAKEOUT
+[131/589] PEP BAKEHOUSE & COFFEE SHOP
+    [Hunter] credit cap reached (0), skipping
+[132/589] JOE'S STEAM RICE ROLL
+    [Hunter] credit cap reached (0), skipping
+[133/589] QAHWAH HOUSE COFFEE
+    [Hunter] credit cap reached (0), skipping
+[134/589] MOMMY'S BAR
+    [Hunter] credit cap reached (0), skipping
+[135/589] BAYRIDGE FISH MARKET
+    [Hunter] credit cap reached (0), skipping
+[136/589] ABEJA COFFEE
+    [Hunter] credit cap reached (0), skipping
+[137/589] HYDERABAD PERI PERI
+    [Hunter] credit cap reached (0), skipping
+[138/589] MOONRISE BAKEHOUSE
+    [Hunter] credit cap reached (0), skipping
+[139/589] CRAFTED HALAL
+[140/589] SWEET & FAVORITE CAKE SHOP
+    [Hunter] credit cap reached (0), skipping
+[141/589] OBERON
+    [Hunter] credit cap reached (0), skipping
+[142/589] SONNYBOY
+    [Hunter] credit cap reached (0), skipping
+[143/589] MATTER
+    [Hunter] credit cap reached (0), skipping
+[144/589] TAQUERIA EL CHATO
+    [Hunter] credit cap reached (0), skipping
+[145/589] LA TIENDA
+[146/589] FLUFFIES HOT CHICKEN
+    [Hunter] credit cap reached (0), skipping
+[147/589] BROOKLYN FRENCH BAKERS
+[148/589] BALERA
+    [Hunter] credit cap reached (0), skipping
+[149/589] RYRY'S
+    [Hunter] credit cap reached (0), skipping
+[150/589] BABBO
+    [Hunter] credit cap reached (0), skipping
+[151/589] SAKURA JAPAN
+    [Hunter] credit cap reached (0), skipping
+[152/589] STEAK STREET
+    [Hunter] credit cap reached (0), skipping
+[153/589] ONETWOONE CAFÉ
+    [Hunter] credit cap reached (0), skipping
+[154/589] MCDONALD'S
+    [Hunter] credit cap reached (0), skipping
+[155/589] PATTIN'
+    [Hunter] credit cap reached (0), skipping
+[156/589] JUDY
+[157/589] LITTLE CUPCAKE BAKESHOP
+    [Hunter] credit cap reached (0), skipping
+[158/589] THEY SAY THAT
+[159/589] AL REEF BAKERY & RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[160/589] PARK ROSE
+    [Hunter] credit cap reached (0), skipping
+[161/589] Client Center
+    [Hunter] credit cap reached (0), skipping
+[162/589] BLANK STREET
+    [Hunter] credit cap reached (0), skipping
+[163/589] EXECUTIVE DINING ROOM
+[164/589] BUB'S BAKERY
+    [Hunter] credit cap reached (0), skipping
+[165/589] JOY'S CAFE
+    [Hunter] credit cap reached (0), skipping
+[166/589] KITH
+    [Hunter] credit cap reached (0), skipping
+[167/589] MIKADO
+    [Hunter] credit cap reached (0), skipping
+[168/589] SOMETHING GREEN
+    [Hunter] credit cap reached (0), skipping
+[169/589] PROFIT CHINESE RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[170/589] SHO TSE
+    [Hunter] credit cap reached (0), skipping
+[171/589] MAMALI
+    [Hunter] credit cap reached (0), skipping
+[172/589] COOL SIPS
+    [Hunter] credit cap reached (0), skipping
+[173/589] TUTT HEIGHTS
+    [Hunter] credit cap reached (0), skipping
+[174/589] FRIDA'S
+    [Hunter] credit cap reached (0), skipping
+[175/589] MOTEK
+    [Hunter] credit cap reached (0), skipping
+[176/589] LITTLE BRANCH
+[177/589] LITTLE BANCHAN SHOP
+    [Hunter] credit cap reached (0), skipping
+[178/589] ZUCKER'S BAGELS & SMOKED FISH
+    [Hunter] credit cap reached (0), skipping
+[179/589] UPSIDE PIZZA
+    [Hunter] credit cap reached (0), skipping
+[180/589] CHEESE WHEEL PASTAS
+[181/589] BIRDIE'S
+    [Hunter] credit cap reached (0), skipping
+[182/589] CAFFE NEGRONI
+[183/589] KUNG FU TEA
+    [Hunter] credit cap reached (0), skipping
+[184/589] STUDIO 151
+    [Hunter] credit cap reached (0), skipping
+[185/589] TOUS LES JOURS
+    [Hunter] credit cap reached (0), skipping
+[186/589] TERIYAKI ONE
+    [Hunter] credit cap reached (0), skipping
+[187/589] SORATE
+    [Hunter] credit cap reached (0), skipping
+[188/589] FAST TIMES/BUCK MASON
+    [Hunter] credit cap reached (0), skipping
+[189/589] LATTE DA
+    [Hunter] credit cap reached (0), skipping
+[190/589] THE MAZE
+    [Hunter] credit cap reached (0), skipping
+[191/589] SUNDAY MORNING
+    [Hunter] credit cap reached (0), skipping
+[192/589] STARBUCKS
+    [Hunter] credit cap reached (0), skipping
+[193/589] KRAVE IT PIZZA & SANDWICH JOINT
+    [Hunter] credit cap reached (0), skipping
+[194/589] HELLO SWEET SPOT
+[195/589] EDOYA SUSHI
+    [Hunter] credit cap reached (0), skipping
+[196/589] FROZEN LOVE
+[197/589] NYC PIZZERIA
+[198/589] POWERHOUSE GYM
+    [Hunter] credit cap reached (0), skipping
+[199/589] TOMAS SANDWICH SHOP
+    [Hunter] credit cap reached (0), skipping
+[200/589] LAHANA AUTHENTIC INDIAN CUISINE
+    [Hunter] credit cap reached (0), skipping
+[201/589] BKB
+    [Hunter] credit cap reached (0), skipping
+[202/589] BIRCH COFFEE
+    [Hunter] credit cap reached (0), skipping
+[203/589] COOKIE ODYSSEY
+[204/589] NATURAL BLEND
+[205/589] VANDERBUILT MARKET  - BARS & EATERIES / BELLO ANGELO
+    [Hunter] credit cap reached (0), skipping
+[206/589] THE BLUE BLOSSOM
+    [Hunter] credit cap reached (0), skipping
+[207/589] Fu Wing Cuisine
+[208/589] VIEW LOUNGE
+    [Hunter] credit cap reached (0), skipping
+[209/589] PLATINUM DOLLS GENTLEMEN'S CLUB
+    [Hunter] credit cap reached (0), skipping
+[210/589] J LOFT
+    [Hunter] credit cap reached (0), skipping
+[211/589] XI'AN FAMOUS FOODS
+    [Hunter] credit cap reached (0), skipping
+[212/589] GOLDEN RATIO
+    [Hunter] credit cap reached (0), skipping
+[213/589] MEILAIXUAN
+    [Hunter] credit cap reached (0), skipping
+[214/589] MI CASA RESTAURANT CON NCY
+    [Hunter] credit cap reached (0), skipping
+[215/589] MILLY'S
+    [Hunter] credit cap reached (0), skipping
+[216/589] BONI & MOTT
+    [Hunter] credit cap reached (0), skipping
+[217/589] TURBO PIZZA
+    [Hunter] credit cap reached (0), skipping
+[218/589] AYAH
+    [Hunter] credit cap reached (0), skipping
+[219/589] THE GOOD GOOD
+    [Hunter] credit cap reached (0), skipping
+[220/589] KUN TSUKI XTRA
+    [Hunter] credit cap reached (0), skipping
+[221/589] EATS ON 57 MARKETPLACE
+    [Hunter] credit cap reached (0), skipping
+[222/589] BAIWEIXIAN
+[223/589] TP TEA
+    [Hunter] credit cap reached (0), skipping
+[224/589] HUSO
+    [Hunter] credit cap reached (0), skipping
+[225/589] LUX BAKERY 1
+[226/589] LAZA DESSERTS
+    [Hunter] credit cap reached (0), skipping
+[227/589] K'FAR
+    [Hunter] credit cap reached (0), skipping
+[228/589] Sunset Coffee Shop
+[229/589] BECCO
+    [Hunter] credit cap reached (0), skipping
+[230/589] MANGOSEEDS
+    [Hunter] credit cap reached (0), skipping
+[231/589] OFCORSICA
+    [Hunter] credit cap reached (0), skipping
+[232/589] CHOCOLATE CONNECTS
+    [Hunter] credit cap reached (0), skipping
+[233/589] FALAFEL TANAMI
+    [Hunter] credit cap reached (0), skipping
+[234/589] BEST DAMN BREAKFAST BURRITO
+    [Hunter] credit cap reached (0), skipping
+[235/589] POPPY
+    [Hunter] credit cap reached (0), skipping
+[236/589] PALMA
+    [Hunter] credit cap reached (0), skipping
+[237/589] AUGUST WILSON THEATER
+    [Hunter] credit cap reached (0), skipping
+[238/589] SHOWA ERA
+    [Hunter] credit cap reached (0), skipping
+[239/589] Maui Poke
+    [Hunter] credit cap reached (0), skipping
+[240/589] CHILO'S
+    [Hunter] credit cap reached (0), skipping
+[241/589] MOLLY’S COFFEE HOUSE
+[242/589] HIGHLIFE / EL CAMINO
+    [Hunter] credit cap reached (0), skipping
+[243/589] FORTUNA
+    [Hunter] credit cap reached (0), skipping
+[244/589] NASA CAFE
+    [Hunter] credit cap reached (0), skipping
+[245/589] JUST SALAD
+    [Hunter] credit cap reached (0), skipping
+[246/589] I'M DONUT?
+    [Hunter] credit cap reached (0), skipping
+[247/589] 5 PENN COFFEE BAR
+    [Hunter] credit cap reached (0), skipping
+[248/589] KORN'S BAKERY
+[249/589] EL ANTIGUO CEVICOS
+[250/589] DUNKIN
+[251/589] SALENTO COLOMBIAN CAFE
+    [Hunter] credit cap reached (0), skipping
+[252/589] 98K CHICKEN & BURGERS
+    [Hunter] credit cap reached (0), skipping
+[253/589] ORIGINAL ROMA PIZZA
+    [Hunter] credit cap reached (0), skipping
+[254/589] VELVETTE ESPRESSO BAR
+[255/589] KING'S KITCHEN
+    [Hunter] credit cap reached (0), skipping
+[256/589] JUST SALAD
+    [Hunter] credit cap reached (0), skipping
+[257/589] EAST BY WEST OMAKASE
+    [Hunter] credit cap reached (0), skipping
+[258/589] NAYA
+    [Hunter] credit cap reached (0), skipping
+[259/589] VIVIBOWL
+    [Hunter] credit cap reached (0), skipping
+[260/589] REL8TIV INC
+[261/589] PIZZA DAA ROMA
+    [Hunter] credit cap reached (0), skipping
+[262/589] MEAT UP
+    [Hunter] credit cap reached (0), skipping
+[263/589] GLATT 16TH
+[264/589] ZARA PIZZA
+    [Hunter] credit cap reached (0), skipping
+[265/589] MAYA MEXICAN GRILL
+    [Hunter] credit cap reached (0), skipping
+[266/589] WIN HING
+    [Hunter] credit cap reached (0), skipping
+[267/589] CIBAO
+    [Hunter] credit cap reached (0), skipping
+[268/589] FUSHIMI AT BAY RIDGE
+    [Hunter] credit cap reached (0), skipping
+[269/589] DELANCEY STREET PIZZA
+    [Hunter] credit cap reached (0), skipping
+[270/589] MALA PANDA
+[271/589] ARCHER & GOAT
+    [Hunter] credit cap reached (0), skipping
+[272/589] DOS TOROS TAQUERIA
+    [Hunter] credit cap reached (0), skipping
+[273/589] FREETOWN KITCHEN
+[274/589] SUSHI LIN
+    [Hunter] credit cap reached (0), skipping
+[275/589] SHUN LEE PALACE
+    [Hunter] credit cap reached (0), skipping
+[276/589] HAMILTON PIZZA AND PASTA
+    [Hunter] credit cap reached (0), skipping
+[277/589] The A. Lounge (Hotel AKA NoMad)
+    [Hunter] credit cap reached (0), skipping
+[278/589] M & H BAKERY
+[279/589] OH MERCY
+    [Hunter] credit cap reached (0), skipping
+[280/589] ANZA CAFE
+    [Hunter] credit cap reached (0), skipping
+[281/589] BAR HERETIC
+    [Hunter] credit cap reached (0), skipping
+[282/589] COMMUNE
+    [Hunter] credit cap reached (0), skipping
+[283/589] TWISTED KNOT CAFE & LOUNGE
+    [Hunter] credit cap reached (0), skipping
+[284/589] SWAGAT
+    [Hunter] credit cap reached (0), skipping
+[285/589] BY & BY
+    [Hunter] credit cap reached (0), skipping
+[286/589] DYNAMO ROOM
+    [Hunter] credit cap reached (0), skipping
+[287/589] VERONICA'S CAFE
+    [Hunter] credit cap reached (0), skipping
+[288/589] CHIPOTLE MEXICAN GRILL #5068
+    [Hunter] credit cap reached (0), skipping
+[289/589] AUTUMN ASIAN RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[290/589] TEQUILA CHITO'S MEXICAN GRILL
+[291/589] PURE EATS
+    [Hunter] credit cap reached (0), skipping
+[292/589] TAQUERIA EL CHATO
+[293/589] GOLDEN RICE
+[294/589] WENDY'S
+    [Hunter] credit cap reached (0), skipping
+[295/589] URBAN BACKYARD
+    [Hunter] credit cap reached (0), skipping
+[296/589] LOADED
+    [Hunter] credit cap reached (0), skipping
+[297/589] BB36609BB LLC
+    [Hunter] credit cap reached (0), skipping
+[298/589] BAR PRIMI
+    [Hunter] credit cap reached (0), skipping
+[299/589] THE LIVING ROOM
+    [Hunter] credit cap reached (0), skipping
+[300/589] MIZNON
+    [Hunter] credit cap reached (0), skipping
+[301/589] Matto
+    [Hunter] credit cap reached (0), skipping
+[302/589] STUDIO CAFE
+    [Hunter] credit cap reached (0), skipping
+[303/589] CONECTICUT MUFFINS
+[304/589] WHITFIELD'S RESTAURANT BK2
+    [Hunter] credit cap reached (0), skipping
+[305/589] 7TH STREET BURGER
+    [Hunter] credit cap reached (0), skipping
+[306/589] LA BOCA
+    [Hunter] credit cap reached (0), skipping
+[307/589] TITO'S RESTAURANT
+[308/589] CARROT EXPRESS
+    [Hunter] credit cap reached (0), skipping
+[309/589] Casita of Brooklyn
+    [Hunter] credit cap reached (0), skipping
+[310/589] SONNY'S CORNER
+    [Hunter] credit cap reached (0), skipping
+[311/589] La Panineria
+    [Hunter] credit cap reached (0), skipping
+[312/589] NAYA
+    [Hunter] credit cap reached (0), skipping
+[313/589] TINTO
+[314/589] CHOPPED
+    [Hunter] credit cap reached (0), skipping
+[315/589] JOE'S PIZZA (PIES ONLY)
+    [Hunter] credit cap reached (0), skipping
+[316/589] GERTIE
+    [Hunter] credit cap reached (0), skipping
+[317/589] MAISON NUR
+    [Hunter] credit cap reached (0), skipping
+[318/589] POPUP BAGELS
+    [Hunter] credit cap reached (0), skipping
+[319/589] MEZEH
+    [Hunter] credit cap reached (0), skipping
+[320/589] BOONGS GRAB & GO
+[321/589] EMO KIM BOB
+[322/589] SAXBYS
+    [Hunter] credit cap reached (0), skipping
+[323/589] LA PERLA NASCOTA
+    [Hunter] credit cap reached (0), skipping
+[324/589] ZARA TERRACE
+    [Hunter] credit cap reached (0), skipping
+[325/589] THE CAFE @ CORNELL TECH
+    [Hunter] credit cap reached (0), skipping
+[326/589] 86 GOLDEN BAY RESTAURANT
+[327/589] WHITE NOISE
+    [Hunter] credit cap reached (0), skipping
+[328/589] LA BOMBONIERA
+    [Hunter] credit cap reached (0), skipping
+[329/589] SWEETGREEN
+    [Hunter] credit cap reached (0), skipping
+[330/589] DISTRICT TACO
+    [Hunter] credit cap reached (0), skipping
+[331/589] RENNY RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[332/589] BAO NOODLE HOUSE
+    [Hunter] credit cap reached (0), skipping
+[333/589] LUIGI'S PIZZA
+    [Hunter] credit cap reached (0), skipping
+[334/589] HARLEM BLENDS
+[335/589] JAY & SON LATIN FLAVOR
+    [Hunter] credit cap reached (0), skipping
+[336/589] STARBUCKS
+[337/589] LEBRON CAFE
+    [Hunter] credit cap reached (0), skipping
+[338/589] RAISING CANE'S #1118
+    [Hunter] credit cap reached (0), skipping
+[339/589] GYOZA SHOP
+    [Hunter] credit cap reached (0), skipping
+[340/589] SEE SHARP CAFE
+[341/589] THE BROOKLYN STRATEGIST
+    [Hunter] credit cap reached (0), skipping
+[342/589] Red Poke
+    [Hunter] credit cap reached (0), skipping
+[343/589] FIGO IL GELATO ITALIANO
+    [Hunter] credit cap reached (0), skipping
+[344/589] ADMIRE - GREENWOOD
+[345/589] HOMETOWN FLAVORS
+[346/589] BURRITO LOCO DELI & GROCERY
+    [Hunter] credit cap reached (0), skipping
+[347/589] MAMAN
+    [Hunter] credit cap reached (0), skipping
+[348/589] PLAYA BOWLS
+    [Hunter] credit cap reached (0), skipping
+[349/589] NEUEHOUSE
+    [Hunter] credit cap reached (0), skipping
+[350/589] AURA D'Or
+    [Hunter] credit cap reached (0), skipping
+[351/589] COFFEE + COCKTAILS
+    [Hunter] credit cap reached (0), skipping
+[352/589] LUCCIOLA
+    [Hunter] credit cap reached (0), skipping
+[353/589] LOVED ONES COFFEE
+    [Hunter] credit cap reached (0), skipping
+[354/589] SEOUL SWEETS
+    [Hunter] credit cap reached (0), skipping
+[355/589] El Super Tipico Restaurant
+[356/589] POKE BOWL
+    [Hunter] credit cap reached (0), skipping
+[357/589] Festac Grill & Lounge
+    [Hunter] credit cap reached (0), skipping
+[358/589] CURRY IN HANDI
+    [Hunter] credit cap reached (0), skipping
+[359/589] RICE & MISO
+    [Hunter] credit cap reached (0), skipping
+[360/589] MADISON PIZZA NYC
+    [Hunter] credit cap reached (0), skipping
+[361/589] ALOHA ALLEY
+    [Hunter] credit cap reached (0), skipping
+[362/589] SAN WEI (located in Dining Concourse)
+[363/589] CHINA KING
+    [Hunter] credit cap reached (0), skipping
+[364/589] SKINNY LOUIE
+    [Hunter] credit cap reached (0), skipping
+[365/589] LA BAGEL DELIGHT COURT
+    [Hunter] credit cap reached (0), skipping
+[366/589] BAYA BAR
+    [Hunter] credit cap reached (0), skipping
+[367/589] TACOS 1986 / MIXTECA
+    [Hunter] credit cap reached (0), skipping
+[368/589] 7TH STREET BURGER
+    [Hunter] credit cap reached (0), skipping
+[369/589] JOE & THE JUICE
+    [Hunter] credit cap reached (0), skipping
+[370/589] JOE & THE JUICE
+    [Hunter] credit cap reached (0), skipping
+[371/589] LAILAS
+    [Hunter] credit cap reached (0), skipping
+[372/589] HI SUNNY
+    [Hunter] credit cap reached (0), skipping
+[373/589] CHOR BAZAAR
+    [Hunter] credit cap reached (0), skipping
+[374/589] GO BAGELS
+    [Hunter] credit cap reached (0), skipping
+[375/589] BOLO BOLO
+    [Hunter] credit cap reached (0), skipping
+[376/589] COTTI COFFEE / VIVI TEA / MD FRIED CHICKEN
+[377/589] FELLINI COFFEE
+[378/589] KING KONG NYM
+[379/589] PIZZA PERRON
+    [Hunter] credit cap reached (0), skipping
+[380/589] LOONG RAMEN
+    [Hunter] credit cap reached (0), skipping
+[381/589] FISH SAUCE
+    [Hunter] credit cap reached (0), skipping
+[382/589] PARK AT KIMS
+    [Hunter] credit cap reached (0), skipping
+[383/589] ANEW CAFE & GOODS
+    [Hunter] credit cap reached (0), skipping
+[384/589] CHIM CHIM
+    [Hunter] credit cap reached (0), skipping
+[385/589] QUE RICO
+[386/589] THE RIPPLE ROOM
+    [Hunter] credit cap reached (0), skipping
+[387/589] SIMPL
+    [Hunter] credit cap reached (0), skipping
+[388/589] CHAHALO
+    [Hunter] credit cap reached (0), skipping
+[389/589] COOLEY LLP
+    [Hunter] credit cap reached (0), skipping
+[390/589] ORA LA CASA DE LAS FLORES
+    [Hunter] credit cap reached (0), skipping
+[391/589] A'MORE CAFFE
+[392/589] GNOCCHI ON 9TH
+    [Hunter] credit cap reached (0), skipping
+[393/589] TIPSY SHANGHAI RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[394/589] JESSI'S COFFEE SHOP
+    [Hunter] credit cap reached (0), skipping
+[395/589] EATALY CAFFE
+    [Hunter] credit cap reached (0), skipping
+[396/589] DERBY CUP COFFEE
+    [Hunter] credit cap reached (0), skipping
+[397/589] RESTAURANT ASSOCIATES(1285 MARKETS)
+    [Hunter] credit cap reached (0), skipping
+[398/589] BKK NEW YORK
+    [Hunter] credit cap reached (0), skipping
+[399/589] EATALY CAFFE
+    [Hunter] credit cap reached (0), skipping
+[400/589] SHAH'S HALAL FOOD
+    [Hunter] credit cap reached (0), skipping
+[401/589] IHOP
+    [Hunter] credit cap reached (0), skipping
+[402/589] COFFEE WITH MILK
+    [Hunter] credit cap reached (0), skipping
+[403/589] TAQUERIA AL PASTOR
+    [Hunter] credit cap reached (0), skipping
+[404/589] VARIETY COFFEE ROASTERS
+    [Hunter] credit cap reached (0), skipping
+[405/589] CAFE HERE
+    [Hunter] credit cap reached (0), skipping
+[406/589] THE GEORGIAN SUITE KITCHEN
+[407/589] DELI AVE M
+    [Hunter] credit cap reached (0), skipping
+[408/589] MEET & MEAT
+    [Hunter] credit cap reached (0), skipping
+[409/589] LE B NYC
+    [Hunter] credit cap reached (0), skipping
+[410/589] SEMICOLON CAFE
+    [Hunter] credit cap reached (0), skipping
+[411/589] URGUT CITY
+[412/589] WEST10WEST
+    [Hunter] credit cap reached (0), skipping
+[413/589] NINO'S RISTORANTE
+    [Hunter] credit cap reached (0), skipping
+[414/589] CARNE
+    [Hunter] credit cap reached (0), skipping
+[415/589] ATOMIC WINGS
+    [Hunter] credit cap reached (0), skipping
+[416/589] FOUNTAIN HOUSE AND BODY
+    [Hunter] credit cap reached (0), skipping
+[417/589] THE CORNER
+[418/589] BROAD STREET DELI
+    [Hunter] credit cap reached (0), skipping
+[419/589] PALACE FRIED CHICKEN & PIZZA
+[420/589] DENKI SUSHI
+[421/589] COFFEE BAR
+    [Hunter] credit cap reached (0), skipping
+[422/589] TAPAS ON LEX
+[423/589] ARIA
+    [Hunter] credit cap reached (0), skipping
+[424/589] MADISON KITCHEN (HEARTH/MEZZE/SIZZLE)
+    [Hunter] credit cap reached (0), skipping
+[425/589] LITTLE DIRT CANDY
+    [Hunter] credit cap reached (0), skipping
+[426/589] UMAMI ASIAN WOK AND NOODLE
+    [Hunter] credit cap reached (0), skipping
+[427/589] JUST SALAD
+    [Hunter] credit cap reached (0), skipping
+[428/589] DAILY PROVISIONS
+    [Hunter] credit cap reached (0), skipping
+[429/589] MORGAN'S
+    [Hunter] credit cap reached (0), skipping
+[430/589] SWEETGREEN
+    [Hunter] credit cap reached (0), skipping
+[431/589] STARBUCKS
+    [Hunter] credit cap reached (0), skipping
+[432/589] PIZZA/RIO BRONCO/AIR STREEMS/SOUP
+    [Hunter] credit cap reached (0), skipping
+[433/589] COOKIES BY JACKIE
+    [Hunter] credit cap reached (0), skipping
+[434/589] Fuel Bar, Kiosks Pop Up Bars and Market Bar
+[435/589] FATTOUSH
+    [Hunter] credit cap reached (0), skipping
+[436/589] SERAFINA TIMES SQUARE
+    [Hunter] credit cap reached (0), skipping
+[437/589] LAGRANGE
+[438/589] MOONBURGER
+    [Hunter] credit cap reached (0), skipping
+[439/589] TEAPULSE
+    [Hunter] credit cap reached (0), skipping
+[440/589] DRAVIDA
+    [Hunter] credit cap reached (0), skipping
+[441/589] SANKU MAOTS'AI
+    [Hunter] credit cap reached (0), skipping
+[442/589] COCONUT THYME CUISINE
+[443/589] CAFFE PARADISO
+[444/589] EMEK CHEESEPASTA LLC
+    [Hunter] credit cap reached (0), skipping
+[445/589] JOOY TEA SHOPPE
+    [Hunter] credit cap reached (0), skipping
+[446/589] DRAGON KING
+    [Hunter] credit cap reached (0), skipping
+[447/589] NEOVISTA FRESH MARKET
+    [Hunter] credit cap reached (0), skipping
+[448/589] TERRIFIC WINGS TACOS 'N' THINGS
+    [Hunter] credit cap reached (0), skipping
+[449/589] THE MERMAID INN
+    [Hunter] credit cap reached (0), skipping
+[450/589] NY SOHO COFFEE
+    [Hunter] credit cap reached (0), skipping
+[451/589] GOOD TASTE
+[452/589] LA FOURNAISE
+[453/589] KINSHIP COFFEE ROASTERS
+[454/589] 583 PARK AVENUE
+    [Hunter] credit cap reached (0), skipping
+[455/589] EMMA JUICE BAR LLC
+    [Hunter] credit cap reached (0), skipping
+[456/589] TOTONNO'S PIZZERIA
+    [Hunter] credit cap reached (0), skipping
+[457/589] TIPSY BEAN
+[458/589] BIXI
+    [Hunter] credit cap reached (0), skipping
+[459/589] AUNTIE ANNE'S/CINNABON
+    [Hunter] credit cap reached (0), skipping
+[460/589] NEWLAB
+    [Hunter] credit cap reached (0), skipping
+[461/589] METRO PRIVATE CINEMA
+    [Hunter] credit cap reached (0), skipping
+[462/589] FOODIE BBQ & BAR
+    [Hunter] credit cap reached (0), skipping
+[463/589] FAENA NEW YORK
+    [Hunter] credit cap reached (0), skipping
+[464/589] J & E PARTY
+[465/589] AYAT
+    [Hunter] credit cap reached (0), skipping
+[466/589] CAFE RIAZOR
+    [Hunter] credit cap reached (0), skipping
+[467/589] EMPEROR DUMPLING
+    [Hunter] credit cap reached (0), skipping
+[468/589] REMI FLOWER & COFFEE
+    [Hunter] credit cap reached (0), skipping
+[469/589] LOAFERS COCKTAIL BAR
+    [Hunter] credit cap reached (0), skipping
+[470/589] THE GYRO PROJECT
+    [Hunter] credit cap reached (0), skipping
+[471/589] GOOP KITCHEN
+[472/589] FIFTYLAN
+    [Hunter] credit cap reached (0), skipping
+[473/589] JOLLIBEE
+    [Hunter] credit cap reached (0), skipping
+[474/589] RIVARENO GELATO
+    [Hunter] credit cap reached (0), skipping
+[475/589] BATHHOUSE
+    [Hunter] credit cap reached (0), skipping
+[476/589] GOOP KITCHEN
+    [Hunter] credit cap reached (0), skipping
+[477/589] MCKENZIE'S KITCHEN
+[478/589] PITA YEERO
+    [Hunter] credit cap reached (0), skipping
+[479/589] AMITUOFO
+    [Hunter] credit cap reached (0), skipping
+[480/589] EL REY TACOS
+    [Hunter] credit cap reached (0), skipping
+[481/589] KEISER BREAKFAST
+    [Hunter] credit cap reached (0), skipping
+[482/589] NAI BROTHER SAUERKRAUT FISH
+    [Hunter] credit cap reached (0), skipping
+[483/589] KEVIN'S
+[484/589] WIDDI HALL
+[485/589] WONDER
+    [Hunter] credit cap reached (0), skipping
+[486/589] FELIX EMPANADAS
+    [Hunter] credit cap reached (0), skipping
+[487/589] DEGIRMEN
+    [Hunter] credit cap reached (0), skipping
+[488/589] GONG CHA
+    [Hunter] credit cap reached (0), skipping
+[489/589] JEJU NOODLE BAR
+    [Hunter] credit cap reached (0), skipping
+[490/589] CHEZ MARGAUX
+    [Hunter] credit cap reached (0), skipping
+[491/589] BESSIE'S PLACE CLUBHOUSE CAFE BAR
+[492/589] MENKOI SAO
+    [Hunter] credit cap reached (0), skipping
+[493/589] MILKY ICE
+[494/589] ZINC
+    [Hunter] credit cap reached (0), skipping
+[495/589] ORAI RECORD BAR
+    [Hunter] credit cap reached (0), skipping
+[496/589] MADE IN NEW YORK PIZZA
+    [Hunter] credit cap reached (0), skipping
+[497/589] JERUSALEM STEAKHOUSE
+    [Hunter] credit cap reached (0), skipping
+[498/589] CANTEEN @ CHELSEA PIERS FIELD HOUSE
+    [Hunter] credit cap reached (0), skipping
+[499/589] MAPO ASIAN RESTAURANT & BAR
+    [Hunter] credit cap reached (0), skipping
+[500/589] SHELLY'S
+[501/589] LAO JIE HOTPOT
+    [Hunter] credit cap reached (0), skipping
+[502/589] CHEZ NICK
+    [Hunter] credit cap reached (0), skipping
+[503/589] CITY SUBS
+    [Hunter] credit cap reached (0), skipping
+[504/589] FAT BOYS BURGERS
+    [Hunter] credit cap reached (0), skipping
+[505/589] LUCKY TIGER NYC
+    [Hunter] credit cap reached (0), skipping
+[506/589] THE FITCH COFFEE BAR
+    [Hunter] credit cap reached (0), skipping
+[507/589] UN MUNDO SALUDABLE (HERBALIFE)
+    [Hunter] credit cap reached (0), skipping
+[508/589] CHOP'T
+    [Hunter] credit cap reached (0), skipping
+[509/589] MIKE'S PIZZA & RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[510/589] PERLE
+    [Hunter] credit cap reached (0), skipping
+[511/589] DANNY'S
+    [Hunter] credit cap reached (0), skipping
+[512/589] ARVINE
+    [Hunter] credit cap reached (0), skipping
+[513/589] LANZHOU HAND PULLED NOODLES & DUMPLINGS
+    [Hunter] credit cap reached (0), skipping
+[514/589] LLOYD'S CARROT CAKE
+    [Hunter] credit cap reached (0), skipping
+[515/589] SEOR PIZZA
+    [Hunter] credit cap reached (0), skipping
+[516/589] PITA YEERO
+    [Hunter] credit cap reached (0), skipping
+[517/589] CEDAR STAR CATERING
+    [Hunter] credit cap reached (0), skipping
+[518/589] LOU YAU KEE HAINAN  CHICKEN RICE II
+[519/589] KENNEDY CHICKEN & BURGER
+[520/589] WENDY'S
+    [Hunter] credit cap reached (0), skipping
+[521/589] WETZEL'S PRETZELS
+    [Hunter] credit cap reached (0), skipping
+[522/589] LA MERCERIE
+    [Hunter] credit cap reached (0), skipping
+[523/589] MARLOW EAST
+    [Hunter] credit cap reached (0), skipping
+[524/589] COCO BUBBLE TEA / CRAB HOUSE TIME SQUARE / PRONTO PASTA
+    [Hunter] credit cap reached (0), skipping
+[525/589] JOHN JAY CAMPUS EATS
+    [Hunter] credit cap reached (0), skipping
+[526/589] COZY ON THE SLOPE
+    [Hunter] credit cap reached (0), skipping
+[527/589] ALVO PIZZA
+    [Hunter] credit cap reached (0), skipping
+[528/589] HAWA
+    [Hunter] credit cap reached (0), skipping
+[529/589] ROTHSCHILD TLV
+    [Hunter] credit cap reached (0), skipping
+[530/589] NOONA NOODLES
+    [Hunter] credit cap reached (0), skipping
+[531/589] T&Y KITCHEN
+    [Hunter] credit cap reached (0), skipping
+[532/589] GALLEGO SEAFOOD
+[533/589] EMERALD BAKERY AND CAFE
+    [Hunter] credit cap reached (0), skipping
+[534/589] THE BAY CAFE
+    [Hunter] credit cap reached (0), skipping
+[535/589] PAOLA'S
+    [Hunter] credit cap reached (0), skipping
+[536/589] OSLO COFFEE ROASTERS
+    [Hunter] credit cap reached (0), skipping
+[537/589] SERPENTINE
+    [Hunter] credit cap reached (0), skipping
+[538/589] DONGBEI
+    [Hunter] credit cap reached (0), skipping
+[539/589] BIARRITZ KOSHER PIZZA & WINE
+    [Hunter] credit cap reached (0), skipping
+[540/589] EL MEXICANO RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[541/589] WETZELS PRETZELS
+    [Hunter] credit cap reached (0), skipping
+[542/589] HIRONI
+[543/589] TAQUERIA CONDESA
+    [Hunter] credit cap reached (0), skipping
+[544/589] HORI
+    [Hunter] credit cap reached (0), skipping
+[545/589] WALTER'S GOOD EATS
+[546/589] BERIKONI / GEORGIAN HOUSE
+[547/589] CHILL CAFE
+    [Hunter] credit cap reached (0), skipping
+[548/589] PHO BANG
+[549/589] YOKO-CHO
+    [Hunter] credit cap reached (0), skipping
+[550/589] EATS
+    [Hunter] credit cap reached (0), skipping
+[551/589] CHAHALO
+    [Hunter] credit cap reached (0), skipping
+[552/589] MADMAN ESPRESSO
+    [Hunter] credit cap reached (0), skipping
+[553/589] SHRINE, YATENGA
+    [Hunter] credit cap reached (0), skipping
+[554/589] CATALYST MARKET BAR
+[555/589] PHILADELPHIA GRILLE
+    [Hunter] credit cap reached (0), skipping
+[556/589] GEORGIE'S CAFE
+    [Hunter] credit cap reached (0), skipping
+[557/589] WENDY'S
+    [Hunter] credit cap reached (0), skipping
+[558/589] PIZZA CREW
+    [Hunter] credit cap reached (0), skipping
+[559/589] TERA NYC
+    [Hunter] credit cap reached (0), skipping
+[560/589] CHINA CITY
+[561/589] FIFTHSIP
+[562/589] JAMBA JUICE/ AUNTIE ANNE'S PRETZELS
+    [Hunter] credit cap reached (0), skipping
+[563/589] GLACE BY NOGLU
+    [Hunter] credit cap reached (0), skipping
+[564/589] PURI BAKERY
+[565/589] TEAPULSE
+    [Hunter] credit cap reached (0), skipping
+[566/589] SHIN TAKUMI
+    [Hunter] credit cap reached (0), skipping
+[567/589] NOVA PIZZA & GRILL
+    [Hunter] credit cap reached (0), skipping
+[568/589] EARTHBAR
+    [Hunter] credit cap reached (0), skipping
+[569/589] MADE IN MEXICO
+    [Hunter] credit cap reached (0), skipping
+[570/589] FIVE IRON GOLF
+    [Hunter] credit cap reached (0), skipping
+[571/589] COMFORT INN - PROSPECT PARK
+    [Hunter] credit cap reached (0), skipping
+[572/589] UPTACO
+    [Hunter] credit cap reached (0), skipping
+[573/589] AUNTIE ANNE'S
+    [Hunter] credit cap reached (0), skipping
+[574/589] CHUNG DDUK
+    [Hunter] credit cap reached (0), skipping
+[575/589] PEARL STREET RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[576/589] DEII CIBAO COFFEE SHOP
+[577/589] DOOKKI
+    [Hunter] credit cap reached (0), skipping
+[578/589] GO GO CURRY USA INC
+    [Hunter] credit cap reached (0), skipping
+[579/589] MALTA COFFEE
+[580/589] SU & GAO
+[581/589] TEPPAN TERRITORY
+    [Hunter] credit cap reached (0), skipping
+[582/589] EAST JAPANESE RESTAURANT
+    [Hunter] credit cap reached (0), skipping
+[583/589] SAVO
+    [Hunter] credit cap reached (0), skipping
+[584/589] VIVI BUBBLE TEA
+[585/589] HYDERABADI ZAIQA
+    [Hunter] credit cap reached (0), skipping
+[586/589] THE ROCKWELL PLACE
+[587/589] SWEETGREEN
+    [Hunter] credit cap reached (0), skipping
+[588/589] BREAD & SPREAD
+    [Hunter] credit cap reached (0), skipping
+[589/589] POPPY'S COMMISSARY
+    [Hunter] credit cap reached (0), skipping
+
+Done.
+  With website: 471/589
+  With email:   3/589
+  CSV:          new_restaurants_enriched.csv
+  JS data:      data-restaurants.jsx
