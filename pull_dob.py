@@ -30,6 +30,7 @@ import requests
 # ---------------------------------------------------------------------------
 
 DATASET_URL  = "https://data.cityofnewyork.us/resource/ipu4-2q9a.json"
+# TODO: set NYC_OPEN_DATA_TOKEN env var for production (see .env.example)
 APP_TOKEN    = os.getenv("NYC_OPEN_DATA_TOKEN", "")
 PAGE_SIZE    = 1000
 OUTPUT_FILE  = "data-permits.jsx"

@@ -11,7 +11,7 @@ Writes results to new_restaurants_enriched.csv.
 Progress is checkpointed to enrichment_cache.json so interrupted runs
 can resume without re-fetching already-processed rows.
 
-API keys (set as environment variables or edit below):
+API keys — set as environment variables before running (never hardcode for production):
   GOOGLE_PLACES_API_KEY
   HUNTER_API_KEY
 """
@@ -34,6 +34,7 @@ JS_OUTPUT = "data-restaurants.jsx"
 JSON_OUTPUT = "../vestibule-app/public/restaurants.json"
 CACHE_FILE = "enrichment_cache.json"
 
+# TODO: set these env vars before running in production (see .env.example)
 GOOGLE_API_KEY = os.getenv("GOOGLE_PLACES_API_KEY", "")
 HUNTER_API_KEY = os.getenv("HUNTER_API_KEY", "")
 

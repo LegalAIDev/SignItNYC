@@ -24,8 +24,9 @@ import requests
 DATASET_ID = "43nn-pn8j"
 BASE_URL = f"https://data.cityofnewyork.us/resource/{DATASET_ID}.json"
 
-# Optional: set an app token to avoid rate limiting (register free at
-# https://data.cityofnewyork.us/profile/app_tokens)
+# TODO: set NYC_OPEN_DATA_TOKEN env var for production (see .env.example)
+# Optional: avoids rate limiting — register free at
+# https://data.cityofnewyork.us/profile/app_tokens
 APP_TOKEN = os.getenv("NYC_OPEN_DATA_TOKEN", "")
 
 # How far back to look for first inspections
