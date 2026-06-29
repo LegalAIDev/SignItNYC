@@ -3,7 +3,11 @@ const { useState: useRState, useEffect: useREffect, useRef: useRRef } = React;
 
 function RestaurantsView() {
   const raw = (window.VESTIBULE_DATA && window.VESTIBULE_DATA.RESTAURANTS) || [];
-  const [rows, setRows]           = useRState(raw);
+  const [rows, setRows]           = useRState(() => {
+    let cache = {};
+    try { cache = JSON.parse(localStorage.getItem('vestibule.emails') || '{}'); } catch (e) {}
+    return raw.map(r => { const c = cache[r.camis]; return c ? { ...r, ...c } : r; });
+  });
   const [search, setSearch]       = useRState('');
   const [borFilter, setBorFilter] = useRState('all');
   const [cusFilter, setCusFilter] = useRState('all');
@@ -180,11 +184,13 @@ function RestaurantsView() {
         const foundDomain = data.data?.domain || '';
         if (emails.length) {
           found++;
-          setRows(prev => prev.map(r =>
-            r.camis === target.camis
-              ? { ...r, email: emails[0], allEmails: emails.join('; '), domain: r.domain || foundDomain }
-              : r
-          ));
+          const patch = { email: emails[0], allEmails: emails.join('; '), domain: target.domain || foundDomain };
+          setRows(prev => prev.map(r => r.camis === target.camis ? { ...r, ...patch } : r));
+          try {
+            const cache = JSON.parse(localStorage.getItem('vestibule.emails') || '{}');
+            cache[target.camis] = patch;
+            localStorage.setItem('vestibule.emails', JSON.stringify(cache));
+          } catch (e) {}
         } else { none++; }
       } catch (e) {
         console.warn('Hunter error for', target.domain || target.name, e);
@@ -299,7 +305,8 @@ function RestaurantsView() {
         </div>
       </div>
 
-      {/* Toolbar */}
+      {/* Toolbar + status strip — sticky so feedback stays visible when scrolled deep */}
+      <div style={{position:'sticky', top:0, zIndex:4, background:'var(--paper)'}}>
       <div style={{padding:'10px 22px', display:'flex', alignItems:'center', gap:10, borderBottom:'1px solid var(--rule)'}}>
         <input
           style={{padding:'5px 10px', border:'1px solid var(--rule)', borderRadius:4, fontSize:12, width:220, fontFamily:'var(--font-sans)'}}
@@ -420,6 +427,7 @@ function RestaurantsView() {
           {hunterMsg}<span style={{opacity:0.45}}>  ·  dismiss ✕</span>
         </div>
       )}
+      </div>{/* end sticky wrapper */}
 
       {/* Table */}
       <div style={{overflowX:'auto'}}>
