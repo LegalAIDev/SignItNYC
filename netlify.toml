@@ -1,0 +1,25 @@
+[build]
+  publish = "."
+  # No build command — static HTML with React loaded from CDN
+
+# Redirect root to the main app
+[[redirects]]
+  from = "/"
+  to = "/Vestibule.html"
+  status = 302
+
+# Cache static assets aggressively
+[[headers]]
+  for = "*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "*.jsx"
+  [headers.values]
+    Cache-Control = "public, max-age=3600"
+
+[[headers]]
+  for = "*.html"
+  [headers.values]
+    Cache-Control = "no-cache"
