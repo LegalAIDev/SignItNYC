@@ -94,6 +94,23 @@ function RestaurantsView() {
     catch (e) { return {}; }
   });
   const [noteOpen, setNoteOpen] = useRState(null);
+  const [websiteEditing, setWebsiteEditing] = useRState(null);
+
+  const saveWebsite = (camis, rawUrl) => {
+    const trimmed = rawUrl.trim();
+    const website = trimmed && !/^https?:\/\//i.test(trimmed) ? `https://${trimmed}` : trimmed;
+    const domain  = website ? website.replace(/^https?:\/\//i, '').replace(/\/.*$/, '') : '';
+    setRows(prev => prev.map(r => r.camis === camis ? { ...r, website: website || undefined, domain: domain || undefined } : r));
+    try {
+      const cache = JSON.parse(localStorage.getItem('vestibule.emails') || '{}');
+      if (!cache[camis]) cache[camis] = {};
+      if (website) { cache[camis].website = website; cache[camis].domain = domain; }
+      else { delete cache[camis].website; delete cache[camis].domain; }
+      if (!Object.keys(cache[camis]).length) delete cache[camis];
+      localStorage.setItem('vestibule.emails', JSON.stringify(cache));
+    } catch (e) {}
+    setWebsiteEditing(null);
+  };
 
   const updateOutreach = (camis, patch) => {
     setOutreach(prev => {
@@ -493,10 +510,26 @@ function RestaurantsView() {
                 <td style={{padding:'8px 12px', color:'var(--ink-mute)', whiteSpace:'nowrap'}}>{r.building} {r.street}</td>
                 <td style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:11, whiteSpace:'nowrap'}}>{r.phone || '—'}</td>
                 <td style={{padding:'8px 12px', maxWidth:180, overflow:'hidden', textOverflow:'ellipsis', whiteSpace:'nowrap'}}>
-                  {r.website
-                    ? <a href={r.website} target="_blank" rel="noopener noreferrer" style={{color:'var(--blue)', textDecoration:'none', fontSize:11}}>{r.domain}</a>
-                    : <span style={{color:'var(--ink-mute)'}}>—</span>
-                  }
+                  {websiteEditing === r.camis ? (
+                    <input autoFocus defaultValue={r.website || ''}
+                      placeholder="https://example.com"
+                      onBlur={e => saveWebsite(r.camis, e.target.value)}
+                      onKeyDown={e => {
+                        if (e.key === 'Enter')  saveWebsite(r.camis, e.target.value);
+                        if (e.key === 'Escape') setWebsiteEditing(null);
+                      }}
+                      style={{padding:'3px 7px', border:'1px solid var(--orange)', borderRadius:4, fontSize:11, width:160, fontFamily:'var(--font-sans)'}}/>
+                  ) : r.website ? (
+                    <span style={{display:'flex', alignItems:'center', gap:4}}>
+                      <a href={r.website} target="_blank" rel="noopener noreferrer"
+                        style={{color:'var(--blue)', textDecoration:'none', fontSize:11}}>{r.domain}</a>
+                      <button className="track-chip" onClick={() => setWebsiteEditing(r.camis)}
+                        title="Edit website URL" style={{fontSize:10, padding:'1px 5px', lineHeight:1.4}}>✎</button>
+                    </span>
+                  ) : (
+                    <button className="track-chip" onClick={() => setWebsiteEditing(r.camis)}
+                      title="Add website URL" style={{color:'var(--ink-mute)'}}>+ Add</button>
+                  )}
                 </td>
                 <td style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:11, verticalAlign:'top'}}>
                   {(() => {
