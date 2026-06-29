@@ -39,6 +39,18 @@ function RestaurantsView() {
     try { return new Set(JSON.parse(localStorage.getItem('vestibule.hidden') || '[]')); }
     catch (e) { return new Set(); }
   });
+
+  // --- "Not in Hunter" — CAMIS values Hunter confirmed have no emails -------
+  const [noEmail, setNoEmail] = useRState(() => {
+    try { return new Set(JSON.parse(localStorage.getItem('vestibule.noEmail') || '[]')); }
+    catch (e) { return new Set(); }
+  });
+  const markNoEmail = (camis) => setNoEmail(prev => {
+    const n = new Set(prev);
+    n.add(camis);
+    try { localStorage.setItem('vestibule.noEmail', JSON.stringify([...n])); } catch (e) {}
+    return n;
+  });
   const [showHidden, setShowHidden] = useRState(false);
   const persistHidden = (s) => { try { localStorage.setItem('vestibule.hidden', JSON.stringify([...s])); } catch (e) {} };
   const hideCompany = (camis) => setHidden(prev => { const n = new Set(prev); n.add(camis);    persistHidden(n); return n; });
@@ -141,10 +153,10 @@ function RestaurantsView() {
   const totalCount  = counted.length;
   const withWebsite = counted.filter(r => r.website).length;
   const withEmail   = counted.filter(r => r.email).length;
-  const needsHunter = counted.filter(r => r.domain && !r.email).length;
+  const needsHunter = counted.filter(r => r.domain && !r.email && !noEmail.has(r.camis)).length;
   const contactedCount = counted.filter(r => { const o = outreach[r.camis] || {}; return o.called || o.emailed; }).length;
   // Selected leads that still need an email (what the bulk-selected fetch will target).
-  const selectedNeedingEmail = rows.filter(r => selected.has(r.camis) && !r.email);
+  const selectedNeedingEmail = rows.filter(r => selected.has(r.camis) && !r.email && !noEmail.has(r.camis));
 
   const saveHunterKey = (k) => {
     setHunterKey(k);
@@ -191,7 +203,7 @@ function RestaurantsView() {
             cache[target.camis] = patch;
             localStorage.setItem('vestibule.emails', JSON.stringify(cache));
           } catch (e) {}
-        } else { none++; }
+        } else { none++; markNoEmail(target.camis); }
       } catch (e) {
         console.warn('Hunter error for', target.domain || target.name, e);
         none++;
@@ -212,8 +224,8 @@ function RestaurantsView() {
     }
   };
 
-  // Bulk: every lead with a domain but no email yet.
-  const findEmails = () => runHunter(rows.filter(r => r.domain && !r.email));
+  // Bulk: every lead with a domain but no email yet, skipping confirmed no-results.
+  const findEmails = () => runHunter(rows.filter(r => r.domain && !r.email && !noEmail.has(r.camis)));
   // One specific company (by domain if known, else by company name).
   const findEmailOne = (row) => runHunter([row]);
   // Just the checked leads that still need an email.
@@ -491,6 +503,14 @@ function RestaurantsView() {
                     const emails = (r.allEmails ? r.allEmails.split(/;\s*/) : (r.email ? [r.email] : []))
                       .map(s => s.trim()).filter(Boolean);
                     if (!emails.length) {
+                      if (noEmail.has(r.camis)) {
+                        return (
+                          <span className="track-chip" title="Hunter has no emails for this business"
+                            style={{opacity:0.4, cursor:'default'}}>
+                            — Not in Hunter
+                          </span>
+                        );
+                      }
                       return (
                         <button className="track-chip find"
                           disabled={enriching}
