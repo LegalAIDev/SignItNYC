@@ -151,6 +151,9 @@ body { overflow: hidden; }
 .track-chip:hover { background: var(--paper-2); border-color: var(--ink-mute); }
 .track-chip.on { background: var(--green); border-color: var(--green); color: #fff; }
 .track-chip.note.on { background: var(--amber, #b45309); border-color: var(--amber, #b45309); }
+.track-chip:disabled { opacity: 0.45; cursor: not-allowed; }
+.track-chip.find { color: var(--blue, #1a56db); border-color: var(--blue-pale, #c7d7fb); }
+.track-chip.find:hover { background: var(--blue-pale, #e8f0fe); border-color: var(--blue, #1a56db); }
 
 /* Kbd */
 .kbd { font-family: var(--font-mono); font-size: 10px; padding: 1px 5px; border: 1px solid var(--rule); border-bottom-width: 2px; border-radius: 3px; background: var(--paper); color: var(--ink-3); }

@@ -13,6 +13,22 @@ function RestaurantsView() {
   const [showKeyInput, setShowKeyInput] = useRState(false);
   const stopRef = useRRef(false);
 
+  // --- Multi-select for bulk Hunter fetch ----------------------------------
+  const [selected, setSelected] = useRState(() => new Set());
+  const toggleSelect = (camis) => setSelected(prev => {
+    const next = new Set(prev);
+    next.has(camis) ? next.delete(camis) : next.add(camis);
+    return next;
+  });
+  const toggleSelectAll = (visibleRows) => setSelected(prev => {
+    const next = new Set(prev);
+    const allOn = visibleRows.length > 0 && visibleRows.every(r => next.has(r.camis));
+    if (allOn) visibleRows.forEach(r => next.delete(r.camis));
+    else       visibleRows.forEach(r => next.add(r.camis));
+    return next;
+  });
+  const clearSelection = () => setSelected(new Set());
+
   // --- Outreach tracking (persisted to localStorage, keyed by CAMIS) -------
   const [statusFilter, setStatusFilter] = useRState('all');
   const [outreach, setOutreach] = useRState(() => {
@@ -56,19 +72,26 @@ function RestaurantsView() {
     return true;
   });
 
+  const allFilteredSelected = filtered.length > 0 && filtered.every(r => selected.has(r.camis));
+  const someFilteredSelected = filtered.some(r => selected.has(r.camis));
+
   const withWebsite = rows.filter(r => r.website).length;
   const withEmail   = rows.filter(r => r.email).length;
   const needsHunter = rows.filter(r => r.domain && !r.email).length;
   const contactedCount = rows.filter(r => { const o = outreach[r.camis] || {}; return o.called || o.emailed; }).length;
+  // Selected leads that still need an email (what the bulk-selected fetch will target).
+  const selectedNeedingEmail = rows.filter(r => selected.has(r.camis) && !r.email);
 
   const saveHunterKey = (k) => {
     setHunterKey(k);
     localStorage.setItem('hunterApiKey', k);
   };
 
-  const findEmails = async () => {
+  // Shared Hunter.io runner. Accepts any list of lead rows and fills in emails.
+  const runHunter = async (targets) => {
+    if (enriching) return;
     if (!hunterKey) { setShowKeyInput(true); return; }
-    const targets = rows.filter(r => r.domain && !r.email);
+    targets = (targets || []).filter(t => t && (t.domain || t.name));
     if (!targets.length) return;
     stopRef.current = false;
     setEnriching(true);
@@ -77,26 +100,38 @@ function RestaurantsView() {
     for (const target of targets) {
       if (stopRef.current) break;
       try {
+        // Prefer domain search; fall back to company-name search when a lead has no website.
+        const q = target.domain
+          ? `domain=${encodeURIComponent(target.domain)}`
+          : `company=${encodeURIComponent(target.name)}`;
         const resp = await fetch(
-          `https://api.hunter.io/v2/domain-search?domain=${encodeURIComponent(target.domain)}&api_key=${hunterKey}&limit=10`
+          `https://api.hunter.io/v2/domain-search?${q}&api_key=${hunterKey}&limit=10`
         );
         const data = await resp.json();
         const emails = (data.data?.emails || []).map(e => e.value).filter(Boolean);
+        const foundDomain = data.data?.domain || '';
         if (emails.length) {
           setRows(prev => prev.map(r =>
             r.camis === target.camis
-              ? { ...r, email: emails[0], allEmails: emails.join('; ') }
+              ? { ...r, email: emails[0], allEmails: emails.join('; '), domain: r.domain || foundDomain }
               : r
           ));
         }
       } catch (e) {
-        console.warn('Hunter error for', target.domain, e);
+        console.warn('Hunter error for', target.domain || target.name, e);
       }
       setProgress(p => ({ ...p, done: p.done + 1 }));
       await new Promise(res => setTimeout(res, 200));
     }
     setEnriching(false);
   };
+
+  // Bulk: every lead with a domain but no email yet.
+  const findEmails = () => runHunter(rows.filter(r => r.domain && !r.email));
+  // One specific company (by domain if known, else by company name).
+  const findEmailOne = (row) => runHunter([row]);
+  // Just the checked leads that still need an email.
+  const findEmailsSelected = () => runHunter(selectedNeedingEmail);
 
   const pct = progress.total ? Math.round((progress.done / progress.total) * 100) : 0;
 
@@ -243,13 +278,27 @@ function RestaurantsView() {
           </div>
         )}
 
+        {selected.size > 0 && (
+          <button
+            className={`btn small ${enriching ? '' : 'accent'}`}
+            disabled={enriching || selectedNeedingEmail.length === 0}
+            onClick={findEmailsSelected}
+            title="Fetch emails for the checked leads via Hunter.io"
+          >
+            {enriching ? 'Finding…' : `Find emails · ${selectedNeedingEmail.length} of ${selected.size} selected`}
+          </button>
+        )}
+        {selected.size > 0 && (
+          <button className="btn small ghost" onClick={clearSelection} title="Clear selection">✕ Clear</button>
+        )}
         <button className="btn small" onClick={() => setShowKeyInput(v => !v)} title="Set Hunter API key">⚙ Hunter key</button>
         <button
           className={`btn small ${enriching ? '' : 'primary'}`}
           disabled={enriching || needsHunter === 0}
           onClick={findEmails}
+          title="Fetch emails for every lead that has a website but no email yet"
         >
-          {enriching ? 'Finding…' : `Find emails (${needsHunter})`}
+          {enriching ? 'Finding…' : `Find all (${needsHunter})`}
         </button>
       </div>
 
@@ -258,6 +307,14 @@ function RestaurantsView() {
         <table style={{width:'100%', borderCollapse:'collapse', fontSize:12}}>
           <thead>
             <tr style={{borderBottom:'2px solid var(--rule)', textAlign:'left'}}>
+              <th style={{padding:'8px 8px 8px 12px', width:28}}>
+                <input type="checkbox"
+                  style={{accentColor:'var(--ink)', cursor:'pointer'}}
+                  checked={allFilteredSelected}
+                  ref={el => { if (el) el.indeterminate = !allFilteredSelected && someFilteredSelected; }}
+                  onChange={() => toggleSelectAll(filtered)}
+                  title="Select all (current view)"/>
+              </th>
               {['First inspection','Name','Cuisine','Borough','Address','Phone','Website','Email','Outreach'].map(h => (
                 <th key={h} style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:10, fontWeight:600, color:'var(--ink-mute)', whiteSpace:'nowrap'}}>{h.toUpperCase()}</th>
               ))}
@@ -265,7 +322,14 @@ function RestaurantsView() {
           </thead>
           <tbody>
             {filtered.map((r, i) => (
-              <tr key={r.camis} style={{borderBottom:'1px solid var(--rule)', background: i % 2 === 0 ? 'transparent' : 'rgba(0,0,0,0.012)'}}>
+              <tr key={r.camis} style={{borderBottom:'1px solid var(--rule)', background: selected.has(r.camis) ? 'var(--blue-pale,#e8f0fe)' : (i % 2 === 0 ? 'transparent' : 'rgba(0,0,0,0.012)')}}>
+                <td style={{padding:'8px 8px 8px 12px', width:28}}>
+                  <input type="checkbox"
+                    style={{accentColor:'var(--ink)', cursor:'pointer'}}
+                    checked={selected.has(r.camis)}
+                    onChange={() => toggleSelect(r.camis)}
+                    title="Select for bulk email fetch"/>
+                </td>
                 <td style={{padding:'8px 12px', whiteSpace:'nowrap', fontFamily:'var(--font-mono)', fontSize:11, color:'var(--ink-mute)'}}>{r.firstInspection}</td>
                 <td style={{padding:'8px 12px', fontWeight:500, maxWidth:200}}>{r.name}</td>
                 <td style={{padding:'8px 12px', color:'var(--ink-mute)', whiteSpace:'nowrap'}}>{r.cuisine}</td>
@@ -287,9 +351,14 @@ function RestaurantsView() {
                 <td style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:11, whiteSpace:'nowrap'}}>
                   {r.email
                     ? <a href={`mailto:${r.email}`} style={{color:'var(--green-deep)', textDecoration:'none'}}>{r.email}</a>
-                    : r.domain
-                      ? <span style={{color:'var(--ink-mute)'}}>—</span>
-                      : <span style={{color:'var(--rule)'}}>no site</span>
+                    : <button className="track-chip find"
+                        disabled={enriching}
+                        onClick={() => findEmailOne(r)}
+                        title={r.domain
+                          ? `Find emails for ${r.domain} via Hunter.io`
+                          : `Find emails for "${r.name}" via Hunter.io (by company name)`}>
+                        ✦ Find email{r.domain ? '' : 's'}
+                      </button>
                   }
                 </td>
                 <td style={{padding:'8px 12px', whiteSpace:'nowrap'}}>
