@@ -29,6 +29,35 @@ function RestaurantsView() {
   });
   const clearSelection = () => setSelected(new Set());
 
+  // --- Hidden companies (persisted to localStorage) ------------------------
+  const [hidden, setHidden] = useRState(() => {
+    try { return new Set(JSON.parse(localStorage.getItem('vestibule.hidden') || '[]')); }
+    catch (e) { return new Set(); }
+  });
+  const [showHidden, setShowHidden] = useRState(false);
+  const persistHidden = (s) => { try { localStorage.setItem('vestibule.hidden', JSON.stringify([...s])); } catch (e) {} };
+  const hideCompany = (camis) => setHidden(prev => { const n = new Set(prev); n.add(camis);    persistHidden(n); return n; });
+  const unhide      = (camis) => setHidden(prev => { const n = new Set(prev); n.delete(camis); persistHidden(n); return n; });
+
+  // --- Column sorting ------------------------------------------------------
+  const [sort, setSort] = useRState({ key: null, dir: 'asc' });
+  const sortAccessors = {
+    'First inspection': r => r.firstInspection || '',
+    'Name':    r => (r.name || '').toLowerCase(),
+    'Cuisine': r => (r.cuisine || '').toLowerCase(),
+    'Borough': r => (r.borough || '').toLowerCase(),
+    'Address': r => `${r.street || ''} ${r.building || ''}`.toLowerCase(),
+    'Phone':   r => r.phone || '',
+    'Website': r => (r.domain || '').toLowerCase(),
+    'Email':   r => (r.email || (r.allEmails || '').split(/;\s*/)[0] || '').toLowerCase(),
+  };
+  const toggleSort = (key) => {
+    if (!sortAccessors[key]) return;
+    setSort(prev => prev.key === key
+      ? { key, dir: prev.dir === 'asc' ? 'desc' : 'asc' }
+      : { key, dir: 'asc' });
+  };
+
   // --- Outreach tracking (persisted to localStorage, keyed by CAMIS) -------
   const [statusFilter, setStatusFilter] = useRState('all');
   const [outreach, setOutreach] = useRState(() => {
@@ -55,6 +84,7 @@ function RestaurantsView() {
   const cuisines  = [...new Set(raw.map(r => r.cuisine).filter(Boolean))].sort();
 
   const filtered = rows.filter(r => {
+    if (!showHidden && hidden.has(r.camis)) return false;
     if (borFilter !== 'all' && r.borough !== borFilter) return false;
     if (cusFilter !== 'all' && r.cuisine !== cusFilter) return false;
     if (statusFilter !== 'all') {
@@ -74,6 +104,20 @@ function RestaurantsView() {
 
   const allFilteredSelected = filtered.length > 0 && filtered.every(r => selected.has(r.camis));
   const someFilteredSelected = filtered.some(r => selected.has(r.camis));
+
+  // Apply column sort on top of the filtered set (empties always sort last).
+  const display = (() => {
+    if (!sort.key || !sortAccessors[sort.key]) return filtered;
+    const acc = sortAccessors[sort.key];
+    return [...filtered].sort((a, b) => {
+      const av = acc(a), bv = acc(b);
+      if (!av && bv) return 1;
+      if (av && !bv) return -1;
+      if (!av && !bv) return 0;
+      const cmp = av < bv ? -1 : av > bv ? 1 : 0;
+      return sort.dir === 'asc' ? cmp : -cmp;
+    });
+  })();
 
   const withWebsite = rows.filter(r => r.website).length;
   const withEmail   = rows.filter(r => r.email).length;
@@ -253,6 +297,13 @@ function RestaurantsView() {
         </select>
         <span style={{color:'var(--ink-mute)', fontSize:12}} className="mono">{filtered.length} shown</span>
         <button className="btn small" onClick={exportList} disabled={!filtered.length} title="Export current view to Excel">⬇ Export</button>
+        {hidden.size > 0 && (
+          <button className={`btn small ${showHidden ? 'primary' : ''}`}
+            onClick={() => setShowHidden(v => !v)}
+            title="Show or rejoin hidden companies">
+            {showHidden ? `Hide hidden (${hidden.size})` : `Show hidden (${hidden.size})`}
+          </button>
+        )}
         <span style={{flex:1}}/>
 
         {/* Hunter key input */}
@@ -315,14 +366,25 @@ function RestaurantsView() {
                   onChange={() => toggleSelectAll(filtered)}
                   title="Select all (current view)"/>
               </th>
-              {['First inspection','Name','Cuisine','Borough','Address','Phone','Website','Email','Outreach'].map(h => (
-                <th key={h} style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:10, fontWeight:600, color:'var(--ink-mute)', whiteSpace:'nowrap'}}>{h.toUpperCase()}</th>
-              ))}
+              {['First inspection','Name','Cuisine','Borough','Address','Phone','Website','Email','Outreach'].map(h => {
+                const sortable = !!sortAccessors[h];
+                const active = sort.key === h;
+                return (
+                  <th key={h}
+                    onClick={sortable ? () => toggleSort(h) : undefined}
+                    title={sortable ? `Sort by ${h}` : undefined}
+                    style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:10, fontWeight:600,
+                      color: active ? 'var(--ink)' : 'var(--ink-mute)', whiteSpace:'nowrap',
+                      cursor: sortable ? 'pointer' : 'default', userSelect:'none'}}>
+                    {h.toUpperCase()}{active ? (sort.dir === 'asc' ? ' ▲' : ' ▼') : (sortable ? ' ↕' : '')}
+                  </th>
+                );
+              })}
             </tr>
           </thead>
           <tbody>
-            {filtered.map((r, i) => (
-              <tr key={r.camis} style={{borderBottom:'1px solid var(--rule)', background: selected.has(r.camis) ? 'var(--blue-pale,#e8f0fe)' : (i % 2 === 0 ? 'transparent' : 'rgba(0,0,0,0.012)')}}>
+            {display.map((r, i) => (
+              <tr key={r.camis} style={{borderBottom:'1px solid var(--rule)', opacity: hidden.has(r.camis) ? 0.5 : 1, background: selected.has(r.camis) ? 'var(--blue-pale,#e8f0fe)' : (i % 2 === 0 ? 'transparent' : 'rgba(0,0,0,0.012)')}}>
                 <td style={{padding:'8px 8px 8px 12px', width:28}}>
                   <input type="checkbox"
                     style={{accentColor:'var(--ink)', cursor:'pointer'}}
@@ -394,6 +456,11 @@ function RestaurantsView() {
                         <button className={`track-chip note ${o.note ? 'on' : ''}`}
                           onClick={() => setNoteOpen(noteOpen === r.camis ? null : r.camis)}
                           title={o.note || 'Add note'}>📝</button>
+                        {hidden.has(r.camis)
+                          ? <button className="track-chip" onClick={() => unhide(r.camis)}
+                              title="Unhide — return this company to the list">↩ Unhide</button>
+                          : <button className="track-chip" onClick={() => hideCompany(r.camis)}
+                              title="Hide this company from the list">🚫 Hide</button>}
                         {noteOpen === r.camis && (
                           <input autoFocus defaultValue={o.note || ''} placeholder="Note…"
                             onBlur={e => { updateOutreach(r.camis, { note: e.target.value }); setNoteOpen(null); }}
