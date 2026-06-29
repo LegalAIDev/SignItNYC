@@ -348,18 +348,37 @@ function RestaurantsView() {
                     : <span style={{color:'var(--ink-mute)'}}>—</span>
                   }
                 </td>
-                <td style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:11, whiteSpace:'nowrap'}}>
-                  {r.email
-                    ? <a href={`mailto:${r.email}`} style={{color:'var(--green-deep)', textDecoration:'none'}}>{r.email}</a>
-                    : <button className="track-chip find"
-                        disabled={enriching}
-                        onClick={() => findEmailOne(r)}
-                        title={r.domain
-                          ? `Find emails for ${r.domain} via Hunter.io`
-                          : `Find emails for "${r.name}" via Hunter.io (by company name)`}>
-                        ✦ Find email{r.domain ? '' : 's'}
-                      </button>
-                  }
+                <td style={{padding:'8px 12px', fontFamily:'var(--font-mono)', fontSize:11, verticalAlign:'top'}}>
+                  {(() => {
+                    const emails = (r.allEmails ? r.allEmails.split(/;\s*/) : (r.email ? [r.email] : []))
+                      .map(s => s.trim()).filter(Boolean);
+                    if (!emails.length) {
+                      return (
+                        <button className="track-chip find"
+                          disabled={enriching}
+                          onClick={() => findEmailOne(r)}
+                          title={r.domain
+                            ? `Find emails for ${r.domain} via Hunter.io`
+                            : `Find emails for "${r.name}" via Hunter.io (by company name)`}>
+                          ✦ Find email{r.domain ? '' : 's'}
+                        </button>
+                      );
+                    }
+                    return (
+                      <div style={{display:'flex', flexDirection:'column', gap:2, whiteSpace:'nowrap'}}>
+                        {emails.map((em, idx) => (
+                          <a key={em} href={`mailto:${em}`}
+                            style={{color:'var(--green-deep)', textDecoration:'none', opacity: idx === 0 ? 1 : 0.72}}
+                            title={idx === 0 ? 'Primary contact' : 'Additional contact'}>{em}</a>
+                        ))}
+                        {emails.length > 1 && (
+                          <span style={{fontSize:9.5, color:'var(--ink-mute)', fontFamily:'var(--font-mono)'}}>
+                            {emails.length} addresses
+                          </span>
+                        )}
+                      </div>
+                    );
+                  })()}
                 </td>
                 <td style={{padding:'8px 12px', whiteSpace:'nowrap'}}>
                   {(() => {
