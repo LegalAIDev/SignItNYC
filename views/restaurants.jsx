@@ -11,6 +11,7 @@ function RestaurantsView() {
   const [progress, setProgress]   = useRState({ done: 0, total: 0 });
   const [hunterKey, setHunterKey] = useRState(() => localStorage.getItem('hunterApiKey') || '');
   const [showKeyInput, setShowKeyInput] = useRState(false);
+  const [hunterMsg, setHunterMsg] = useRState('');
   const stopRef = useRRef(false);
 
   // --- Multi-select for bulk Hunter fetch ----------------------------------
@@ -149,13 +150,19 @@ function RestaurantsView() {
   // Shared Hunter.io runner. Accepts any list of lead rows and fills in emails.
   const runHunter = async (targets) => {
     if (enriching) return;
-    if (!hunterKey) { setShowKeyInput(true); return; }
+    if (!hunterKey) {
+      setShowKeyInput(true);
+      setHunterMsg('⚠ No Hunter key set — click “Set Hunter key”, paste your key, press Enter, then try again.');
+      return;
+    }
     targets = (targets || []).filter(t => t && (t.domain || t.name));
-    if (!targets.length) return;
+    if (!targets.length) { setHunterMsg('Nothing to look up — those leads already have an email.'); return; }
     stopRef.current = false;
     setEnriching(true);
+    setHunterMsg('');
     setProgress({ done: 0, total: targets.length });
 
+    let found = 0, none = 0, apiError = '';
     for (const target of targets) {
       if (stopRef.current) break;
       try {
@@ -167,22 +174,36 @@ function RestaurantsView() {
           `https://api.hunter.io/v2/domain-search?${q}&api_key=${hunterKey}&limit=10`
         );
         const data = await resp.json();
+        // Hunter returns { errors: [...] } for bad key, quota exceeded, etc.
+        if (data.errors) { apiError = data.errors.map(e => e.details || e.code || 'error').join('; '); break; }
         const emails = (data.data?.emails || []).map(e => e.value).filter(Boolean);
         const foundDomain = data.data?.domain || '';
         if (emails.length) {
+          found++;
           setRows(prev => prev.map(r =>
             r.camis === target.camis
               ? { ...r, email: emails[0], allEmails: emails.join('; '), domain: r.domain || foundDomain }
               : r
           ));
-        }
+        } else { none++; }
       } catch (e) {
         console.warn('Hunter error for', target.domain || target.name, e);
+        none++;
       }
       setProgress(p => ({ ...p, done: p.done + 1 }));
       await new Promise(res => setTimeout(res, 200));
     }
     setEnriching(false);
+
+    if (apiError) {
+      setHunterMsg(`⚠ Hunter API error: ${apiError}`);
+    } else if (targets.length === 1) {
+      setHunterMsg(found
+        ? `✓ Found email(s) for ${targets[0].name}.`
+        : `No emails in Hunter for ${targets[0].name} — its domain isn’t in their database.`);
+    } else {
+      setHunterMsg(`Done — ${found} got emails, ${none} had none in Hunter${stopRef.current ? ' (stopped)' : ''}.`);
+    }
   };
 
   // Bulk: every lead with a domain but no email yet.
@@ -324,14 +345,20 @@ function RestaurantsView() {
 
         {/* Hunter key input */}
         {showKeyInput && (
-          <input
-            style={{padding:'5px 10px', border:'1px solid var(--orange)', borderRadius:4, fontSize:12, width:280, fontFamily:'var(--font-mono)'}}
-            placeholder="Paste Hunter.io API key…"
-            defaultValue={hunterKey}
-            onBlur={e => { saveHunterKey(e.target.value); setShowKeyInput(false); }}
-            onKeyDown={e => { if (e.key === 'Enter') { saveHunterKey(e.target.value); setShowKeyInput(false); }}}
-            autoFocus
-          />
+          <div style={{display:'flex', alignItems:'center', gap:6}}>
+            <input id="hunterKeyInput"
+              style={{padding:'5px 10px', border:'1px solid var(--orange)', borderRadius:4, fontSize:12, width:280, fontFamily:'var(--font-mono)'}}
+              placeholder="Paste Hunter.io API key, then Save…"
+              defaultValue={hunterKey}
+              onKeyDown={e => { if (e.key === 'Enter') { saveHunterKey(e.target.value.trim()); setShowKeyInput(false); setHunterMsg(e.target.value.trim() ? '✓ Hunter key saved.' : ''); }
+                                if (e.key === 'Escape') setShowKeyInput(false); }}
+              autoFocus
+            />
+            <button className="btn small primary" onClick={() => {
+              const v = (document.getElementById('hunterKeyInput')?.value || '').trim();
+              saveHunterKey(v); setShowKeyInput(false); setHunterMsg(v ? '✓ Hunter key saved.' : '');
+            }}>Save</button>
+          </div>
         )}
 
         {/* Progress bar */}
@@ -370,7 +397,10 @@ function RestaurantsView() {
         {selected.size > 0 && (
           <button className="btn small ghost" onClick={clearSelection} title="Clear selection">✕ Clear</button>
         )}
-        <button className="btn small" onClick={() => setShowKeyInput(v => !v)} title="Set Hunter API key">⚙ Hunter key</button>
+        <button className="btn small" onClick={() => setShowKeyInput(v => !v)}
+          title={hunterKey ? 'Hunter key is set — click to change' : 'Set your Hunter.io API key'}>
+          {hunterKey ? '⚙ Hunter key ✓' : '⚙ Set Hunter key'}
+        </button>
         <button
           className={`btn small ${enriching ? '' : 'primary'}`}
           disabled={enriching || needsHunter === 0}
@@ -380,6 +410,16 @@ function RestaurantsView() {
           {enriching ? 'Finding…' : `Find all (${needsHunter})`}
         </button>
       </div>
+
+      {/* Hunter status strip */}
+      {hunterMsg && !enriching && (
+        <div onClick={() => setHunterMsg('')} title="Click to dismiss"
+          style={{padding:'7px 22px', fontSize:11.5, cursor:'pointer', borderBottom:'1px solid var(--rule)',
+            background: hunterMsg.startsWith('⚠') ? 'var(--red-pale,#fdecea)' : hunterMsg.startsWith('✓') ? 'var(--green-pale,#eaf7f0)' : 'var(--paper-2)',
+            color: hunterMsg.startsWith('⚠') ? 'var(--red,#c0392b)' : 'var(--ink-2)'}}>
+          {hunterMsg}<span style={{opacity:0.45}}>  ·  dismiss ✕</span>
+        </div>
+      )}
 
       {/* Table */}
       <div style={{overflowX:'auto'}}>
