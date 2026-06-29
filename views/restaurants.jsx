@@ -131,10 +131,13 @@ function RestaurantsView() {
     });
   })();
 
-  const withWebsite = rows.filter(r => r.website).length;
-  const withEmail   = rows.filter(r => r.email).length;
-  const needsHunter = rows.filter(r => r.domain && !r.email).length;
-  const contactedCount = rows.filter(r => { const o = outreach[r.camis] || {}; return o.called || o.emailed; }).length;
+  // Totals exclude hidden companies — hidden leads are treated as false positives.
+  const counted = rows.filter(r => !hidden.has(r.camis));
+  const totalCount  = counted.length;
+  const withWebsite = counted.filter(r => r.website).length;
+  const withEmail   = counted.filter(r => r.email).length;
+  const needsHunter = counted.filter(r => r.domain && !r.email).length;
+  const contactedCount = counted.filter(r => { const o = outreach[r.camis] || {}; return o.called || o.emailed; }).length;
   // Selected leads that still need an email (what the bulk-selected fetch will target).
   const selectedNeedingEmail = rows.filter(r => selected.has(r.camis) && !r.email);
 
@@ -261,12 +264,13 @@ function RestaurantsView() {
         <div className="left">
           <h3>New restaurants — DOHMH first inspections</h3>
           <div className="sub">
-            {rows.length} establishments · {withWebsite} with website · {withEmail} with email
+            {totalCount} establishments · {withWebsite} with website · {withEmail} with email
+            {hidden.size > 0 && ` · ${hidden.size} hidden (excluded)`}
             {' · '}last 90 days · Brooklyn + Manhattan
           </div>
         </div>
         <div className="stats">
-          <div className="stat"><div className="v">{rows.length}</div><div className="l">Total</div></div>
+          <div className="stat"><div className="v">{totalCount}</div><div className="l">Total</div></div>
           <div className="stat"><div className="v">{withWebsite}</div><div className="l">Website</div></div>
           <div className="stat"><div className="v" style={{color: withEmail ? 'var(--green)' : undefined}}>{withEmail}</div><div className="l">Email</div></div>
           <div className="stat"><div className="v" style={{color: contactedCount ? 'var(--blue)' : 'var(--ink-mute)'}}>{contactedCount}</div><div className="l">Contacted</div></div>
