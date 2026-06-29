@@ -38,6 +38,18 @@ function RestaurantsView() {
   const persistHidden = (s) => { try { localStorage.setItem('vestibule.hidden', JSON.stringify([...s])); } catch (e) {} };
   const hideCompany = (camis) => setHidden(prev => { const n = new Set(prev); n.add(camis);    persistHidden(n); return n; });
   const unhide      = (camis) => setHidden(prev => { const n = new Set(prev); n.delete(camis); persistHidden(n); return n; });
+  // Bulk hide / unhide of the checked rows (reuses the selection checkboxes).
+  const hideSelected = () => {
+    if (!selected.size) return;
+    setHidden(prev => { const n = new Set(prev); selected.forEach(c => n.add(c)); persistHidden(n); return n; });
+    clearSelection();
+  };
+  const unhideSelected = () => {
+    if (!selected.size) return;
+    setHidden(prev => { const n = new Set(prev); selected.forEach(c => n.delete(c)); persistHidden(n); return n; });
+    clearSelection();
+  };
+  const selectedHiddenCount = [...selected].filter(c => hidden.has(c)).length;
 
   // --- Column sorting ------------------------------------------------------
   const [sort, setSort] = useRState({ key: null, dir: 'asc' });
@@ -337,6 +349,18 @@ function RestaurantsView() {
             title="Fetch emails for the checked leads via Hunter.io"
           >
             {enriching ? 'Finding…' : `Find emails · ${selectedNeedingEmail.length} of ${selected.size} selected`}
+          </button>
+        )}
+        {selected.size > 0 && selectedHiddenCount < selected.size && (
+          <button className="btn small" onClick={hideSelected} disabled={enriching}
+            title="Hide the checked companies from the list">
+            🚫 Hide {selected.size - selectedHiddenCount}
+          </button>
+        )}
+        {selected.size > 0 && selectedHiddenCount > 0 && (
+          <button className="btn small" onClick={unhideSelected} disabled={enriching}
+            title="Return the checked hidden companies to the list">
+            ↩ Unhide {selectedHiddenCount}
           </button>
         )}
         {selected.size > 0 && (
