@@ -10,8 +10,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10010",
     "phone": "5708727018",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
+    "website": "https://www.franklintempleton.com/",
+    "domain": "franklintempleton.com",
     "email": "",
     "allEmails": ""
   },
@@ -25,8 +25,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10025",
     "phone": "2122222055",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
+    "website": "https://www.eliswinebar.com/location/elis-wine-bar/",
+    "domain": "eliswinebar.com",
     "email": "",
     "allEmails": ""
   },
@@ -40,8 +40,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11236",
     "phone": "6317429338",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
+    "website": "https://www.mcdonalds.com/us/en-us/location/ny/brooklyn/1467-rockaway-pky/2528.html",
+    "domain": "mcdonalds.com",
     "email": "",
     "allEmails": ""
   },
@@ -70,10 +70,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11235",
     "phone": "7188915151",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://tatianarestaurant.com/",
+    "domain": "tatianarestaurant.com",
+    "email": "tatianarestaurant@yahoo.com",
+    "allEmails": "tatianarestaurant@yahoo.com"
   },
   {
     "camis": "50177683",
@@ -85,10 +85,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10013",
     "phone": "3474408066",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.popupbagels.com/",
+    "domain": "popupbagels.com",
+    "email": "catering@popupbagels.com",
+    "allEmails": "catering@popupbagels.com; gx@popupbagels.com"
   },
   {
     "camis": "50182439",
@@ -145,8 +145,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10027",
     "phone": "2013940399",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
+    "website": "https://www.mcdonalds.com/us/en-us/location/ny/new-york/148-w-125th-street/35741.html",
+    "domain": "mcdonalds.com",
     "email": "",
     "allEmails": ""
   },
@@ -160,10 +160,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10016",
     "phone": "2122132931",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.jbespoke.com/",
+    "domain": "jbespoke.com",
+    "email": "host@jbespoke.com",
+    "allEmails": "host@jbespoke.com"
   },
   {
     "camis": "50166612",
@@ -190,10 +190,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10009",
     "phone": "2129330613",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.hawajuice.com/",
+    "domain": "hawajuice.com",
+    "email": "hawasmoothiesnyc@gmail.com",
+    "allEmails": "hawasmoothiesnyc@gmail.com"
   },
   {
     "camis": "50188337",
@@ -205,10 +205,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10007",
     "phone": "6463794310",
     "firstInspection": "2026-06-24",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://nalasbagelandbrunch.com/",
+    "domain": "nalasbagelandbrunch.com",
+    "email": "contact@nalasbagelandbrunch.com",
+    "allEmails": "contact@nalasbagelandbrunch.com"
   },
   {
     "camis": "50181326",
@@ -220,7 +220,7 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10016",
     "phone": "2012307947",
     "firstInspection": "2026-06-23",
-    "website": "",
+    "website": "https://www.instagram.com/arvacicoffee/",
     "domain": "",
     "email": "",
     "allEmails": ""
@@ -250,8 +250,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11232",
     "phone": "6466348763",
     "firstInspection": "2026-06-23",
-    "website": "",
-    "domain": "",
+    "website": "https://tacomix.com/",
+    "domain": "tacomix.com",
     "email": "",
     "allEmails": ""
   },
@@ -280,8 +280,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "6468461487",
     "firstInspection": "2026-06-23",
-    "website": "",
-    "domain": "",
+    "website": "https://goldensteer.com/pages/new-york",
+    "domain": "goldensteer.com",
     "email": "",
     "allEmails": ""
   },
@@ -295,8 +295,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11207",
     "phone": "7186848899",
     "firstInspection": "2026-06-23",
-    "website": "",
-    "domain": "",
+    "website": "https://www.flaminchickenpizza.com/",
+    "domain": "flaminchickenpizza.com",
     "email": "",
     "allEmails": ""
   },
@@ -310,10 +310,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11232",
     "phone": "9176202839",
     "firstInspection": "2026-06-23",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://apollobagels.com/",
+    "domain": "apollobagels.com",
+    "email": "hello@apollobagels.com",
+    "allEmails": "hello@apollobagels.com; press@apollobagels.com; careers@apollobagels.com"
   },
   {
     "camis": "50183392",
@@ -340,8 +340,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10017",
     "phone": "2124705889",
     "firstInspection": "2026-06-23",
-    "website": "",
-    "domain": "",
+    "website": "https://www.brasseriecognac.com/brasserie-cognac-americain",
+    "domain": "brasseriecognac.com",
     "email": "",
     "allEmails": ""
   },
@@ -370,7 +370,7 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10002",
     "phone": "8584012622",
     "firstInspection": "2026-06-23",
-    "website": "",
+    "website": "https://www.instagram.com/barchucho.nyc/",
     "domain": "",
     "email": "",
     "allEmails": ""
@@ -400,8 +400,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "9178138282",
     "firstInspection": "2026-06-22",
-    "website": "",
-    "domain": "",
+    "website": "https://www.sushisaikounyc.com/",
+    "domain": "sushisaikounyc.com",
     "email": "",
     "allEmails": ""
   },
@@ -460,10 +460,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "2122197693",
     "firstInspection": "2026-06-22",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.estelanyc.com/",
+    "domain": "estelanyc.com",
+    "email": "info@estelanyc.com",
+    "allEmails": "info@estelanyc.com; events@mattos-hospitality.com; sarah@wickedgm.com; david@gruberstrategies.com; you@email.com"
   },
   {
     "camis": "50184203",
@@ -520,8 +520,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10029",
     "phone": "2127226709",
     "firstInspection": "2026-06-22",
-    "website": "",
-    "domain": "",
+    "website": "https://raossince1896.com/",
+    "domain": "raossince1896.com",
     "email": "",
     "allEmails": ""
   },
@@ -550,10 +550,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "9179756316",
     "firstInspection": "2026-06-21",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.hanisnyc.com/",
+    "domain": "hanisnyc.com",
+    "email": "hi@hanisnyc.com",
+    "allEmails": "hi@hanisnyc.com"
   },
   {
     "camis": "50178166",
@@ -580,8 +580,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11226",
     "phone": "7186033560",
     "firstInspection": "2026-06-20",
-    "website": "",
-    "domain": "",
+    "website": "https://www.molitopoblano.com/",
+    "domain": "molitopoblano.com",
     "email": "",
     "allEmails": ""
   },
@@ -640,10 +640,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "9293696565",
     "firstInspection": "2026-06-18",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.allburu.com/",
+    "domain": "allburu.com",
+    "email": "contact@allburu.com",
+    "allEmails": "contact@allburu.com; impallari@gmail.com; team@latofonts.com"
   },
   {
     "camis": "50174607",
@@ -655,8 +655,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11216",
     "phone": "2039128009",
     "firstInspection": "2026-06-18",
-    "website": "",
-    "domain": "",
+    "website": "https://www.thecafeatartshack.com/",
+    "domain": "thecafeatartshack.com",
     "email": "",
     "allEmails": ""
   },
@@ -700,10 +700,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10075",
     "phone": "2125353520",
     "firstInspection": "2026-06-17",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.masseriaeast.com/",
+    "domain": "masseriaeast.com",
+    "email": "info@masseriaeast.com",
+    "allEmails": "info@masseriaeast.com"
   },
   {
     "camis": "50180580",
@@ -715,8 +715,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10039",
     "phone": "7187179925",
     "firstInspection": "2026-06-17",
-    "website": "",
-    "domain": "",
+    "website": "https://locations.dunkindonuts.com/en/ny/new-york/201-w-145th-st/366232",
+    "domain": "locations.dunkindonuts.com",
     "email": "",
     "allEmails": ""
   },
@@ -775,8 +775,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10020",
     "phone": "6469607785",
     "firstInspection": "2026-06-17",
-    "website": "",
-    "domain": "",
+    "website": "https://www.indayallday.com/location/inday-rockefeller-center/",
+    "domain": "indayallday.com",
     "email": "",
     "allEmails": ""
   },
@@ -790,10 +790,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10011",
     "phone": "3058591311",
     "firstInspection": "2026-06-17",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.puravidamiami.com/",
+    "domain": "puravidamiami.com",
+    "email": "orders@puravidamiami.com",
+    "allEmails": "orders@puravidamiami.com; partnerships@puravidamiami.com"
   },
   {
     "camis": "50181207",
@@ -820,8 +820,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10037",
     "phone": "2122343131",
     "firstInspection": "2026-06-16",
-    "website": "",
-    "domain": "",
+    "website": "https://www.pizzastopnyc.com/",
+    "domain": "pizzastopnyc.com",
     "email": "",
     "allEmails": ""
   },
@@ -835,10 +835,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "6467722425",
     "firstInspection": "2026-06-16",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://lebasquenyc.com/",
+    "domain": "lebasquenyc.com",
+    "email": "info@cityrootsnyc.com",
+    "allEmails": "info@cityrootsnyc.com"
   },
   {
     "camis": "50108454",
@@ -850,10 +850,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10075",
     "phone": "6465490684",
     "firstInspection": "2026-06-16",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.nozmarket.com/",
+    "domain": "nozmarket.com",
+    "email": "info@nozmarket.com",
+    "allEmails": "info@nozmarket.com"
   },
   {
     "camis": "50113500",
@@ -880,8 +880,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11211",
     "phone": "9175359142",
     "firstInspection": "2026-06-16",
-    "website": "",
-    "domain": "",
+    "website": "https://www.lellaalimentari.com/",
+    "domain": "lellaalimentari.com",
     "email": "",
     "allEmails": ""
   },
@@ -910,10 +910,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "9172614388",
     "firstInspection": "2026-06-15",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.wayan-restaurants.com/new-york",
+    "domain": "wayan-restaurants.com",
+    "email": "info@wayan-nyc.com",
+    "allEmails": "info@wayan-nyc.com; reservations@wayan-nyc.com"
   },
   {
     "camis": "50174345",
@@ -970,8 +970,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "2126973335",
     "firstInspection": "2026-06-15",
-    "website": "",
-    "domain": "",
+    "website": "https://thegyroproject.com/",
+    "domain": "thegyroproject.com",
     "email": "",
     "allEmails": ""
   },
@@ -985,10 +985,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10010",
     "phone": "5853656565",
     "firstInspection": "2026-06-15",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.wanglangnyc.com/",
+    "domain": "wanglangnyc.com",
+    "email": "info@wanglangnyc.com",
+    "allEmails": "info@wanglangnyc.com; reservations@wanglangnyc.com"
   },
   {
     "camis": "50186403",
@@ -1015,10 +1015,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "5164583408",
     "firstInspection": "2026-06-12",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://libertybagels.com/",
+    "domain": "libertybagels.com",
+    "email": "libertybagelsny@gmail.com",
+    "allEmails": "libertybagelsny@gmail.com; john@doe.com"
   },
   {
     "camis": "50175260",
@@ -1045,8 +1045,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10001",
     "phone": "2129242824",
     "firstInspection": "2026-06-12",
-    "website": "",
-    "domain": "",
+    "website": "https://bkbagel.com/",
+    "domain": "bkbagel.com",
     "email": "",
     "allEmails": ""
   },
@@ -1060,10 +1060,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11201",
     "phone": "3474639628",
     "firstInspection": "2026-06-12",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://cloudydonut.com/",
+    "domain": "cloudydonut.com",
+    "email": "info@cloudydonut.com",
+    "allEmails": "info@cloudydonut.com"
   },
   {
     "camis": "41519587",
@@ -1075,8 +1075,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10009",
     "phone": "2122282123",
     "firstInspection": "2026-06-11",
-    "website": "",
-    "domain": "",
+    "website": "https://blindbarber.com/",
+    "domain": "blindbarber.com",
     "email": "",
     "allEmails": ""
   },
@@ -1090,10 +1090,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10009",
     "phone": "6468923050",
     "firstInspection": "2026-06-11",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.noreetuh.com/",
+    "domain": "noreetuh.com",
+    "email": "hello@noreetuh.com",
+    "allEmails": "hello@noreetuh.com; tickets@noreetuh.com; events@noreetuh.com; media@noreetuh.com"
   },
   {
     "camis": "50148020",
@@ -1120,10 +1120,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11235",
     "phone": "7182553580",
     "firstInspection": "2026-06-11",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.palenquenyc.com/",
+    "domain": "palenquenyc.com",
+    "email": "palenquecolombianfood@gmail.com",
+    "allEmails": "palenquecolombianfood@gmail.com"
   },
   {
     "camis": "50176598",
@@ -1210,10 +1210,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10017",
     "phone": "9175312269",
     "firstInspection": "2026-06-10",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.sharegracefarms.com/pages/store-locator",
+    "domain": "sharegracefarms.com",
+    "email": "info@sharegracefarms.com",
+    "allEmails": "info@sharegracefarms.com; customerservice@sharegracefarms.com"
   },
   {
     "camis": "50174572",
@@ -1285,10 +1285,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "7189284541",
     "firstInspection": "2026-06-10",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://chipcitycookies.com/locations",
+    "domain": "chipcitycookies.com",
+    "email": "customerservice@chipcitycookies.com",
+    "allEmails": "customerservice@chipcitycookies.com"
   },
   {
     "camis": "50177670",
@@ -1300,10 +1300,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "5865962222",
     "firstInspection": "2026-06-10",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.boweryroad.com/",
+    "domain": "boweryroad.com",
+    "email": "hello@boweryroad.com",
+    "allEmails": "hello@boweryroad.com; devon@hudsonstreethospitality.com; hello@barsellanyc.com"
   },
   {
     "camis": "50180988",
@@ -1360,8 +1360,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10001",
     "phone": "6143182482",
     "firstInspection": "2026-06-10",
-    "website": "",
-    "domain": "",
+    "website": "https://locations.chipotle.com/ny/new-york/500-w-33rd-street",
+    "domain": "locations.chipotle.com",
     "email": "",
     "allEmails": ""
   },
@@ -1405,8 +1405,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "9178481799",
     "firstInspection": "2026-06-09",
-    "website": "",
-    "domain": "",
+    "website": "https://thisbowl.com/",
+    "domain": "thisbowl.com",
     "email": "",
     "allEmails": ""
   },
@@ -1420,8 +1420,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11223",
     "phone": "7183821900",
     "firstInspection": "2026-06-09",
-    "website": "",
-    "domain": "",
+    "website": "https://caferenaissancebk.com/",
+    "domain": "caferenaissancebk.com",
     "email": "",
     "allEmails": ""
   },
@@ -1435,8 +1435,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11231",
     "phone": "9175261650",
     "firstInspection": "2026-06-09",
-    "website": "",
-    "domain": "",
+    "website": "https://tortellinyc.com/",
+    "domain": "tortellinyc.com",
     "email": "",
     "allEmails": ""
   },
@@ -1450,10 +1450,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11205",
     "phone": "7186455227",
     "firstInspection": "2026-06-09",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://noribar.com/",
+    "domain": "noribar.com",
+    "email": "noribar13@gmail.com",
+    "allEmails": "noribar13@gmail.com"
   },
   {
     "camis": "50147778",
@@ -1465,10 +1465,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "9292950015",
     "firstInspection": "2026-06-09",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.piccolacucinagroup.com/ristoranti/piccola-cucina-casa-brooklyn-nyc/",
+    "domain": "piccolacucinagroup.com",
+    "email": "info@piccolacucinagroup.com",
+    "allEmails": "info@piccolacucinagroup.com; event@piccolacucinagroup.com"
   },
   {
     "camis": "50169374",
@@ -1585,10 +1585,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10002",
     "phone": "2127775153",
     "firstInspection": "2026-06-07",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.rumpusroomnyc.com/",
+    "domain": "rumpusroomnyc.com",
+    "email": "info@rumpusroomnyc.com",
+    "allEmails": "info@rumpusroomnyc.com"
   },
   {
     "camis": "50180419",
@@ -1600,8 +1600,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10010",
     "phone": "3054578470",
     "firstInspection": "2026-06-06",
-    "website": "",
-    "domain": "",
+    "website": "https://piadi.com/",
+    "domain": "piadi.com",
     "email": "",
     "allEmails": ""
   },
@@ -1645,7 +1645,7 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10011",
     "phone": "6468804810",
     "firstInspection": "2026-06-04",
-    "website": "",
+    "website": "https://www.instagram.com/theeighthnyc/",
     "domain": "",
     "email": "",
     "allEmails": ""
@@ -1675,10 +1675,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10016",
     "phone": "3476758026",
     "firstInspection": "2026-06-04",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.kjun-nyc.com/",
+    "domain": "kjun-nyc.com",
+    "email": "info@kjunnyc.com",
+    "allEmails": "info@kjunnyc.com; billing@kjunnyc.com"
   },
   {
     "camis": "50180916",
@@ -1705,10 +1705,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "",
     "phone": "6467679582",
     "firstInspection": "2026-06-04",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://therowharlem.com/",
+    "domain": "therowharlem.com",
+    "email": "nilagrc@yahoo.com",
+    "allEmails": "nilagrc@yahoo.com"
   },
   {
     "camis": "50144353",
@@ -1780,8 +1780,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11211",
     "phone": "3476102385",
     "firstInspection": "2026-06-04",
-    "website": "",
-    "domain": "",
+    "website": "https://www.sushiyoshiny.com/",
+    "domain": "sushiyoshiny.com",
     "email": "",
     "allEmails": ""
   },
@@ -1795,10 +1795,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "7182308280",
     "firstInspection": "2026-06-04",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.tongdeethai.com/",
+    "domain": "tongdeethai.com",
+    "email": "tongdeethai@aol.com",
+    "allEmails": "tongdeethai@aol.com"
   },
   {
     "camis": "50181617",
@@ -1840,10 +1840,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10011",
     "phone": "2128889653",
     "firstInspection": "2026-06-03",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.southofthecloudsnyc.com/",
+    "domain": "southofthecloudsnyc.com",
+    "email": "danny.liu@caliamgroup.com",
+    "allEmails": "danny.liu@caliamgroup.com"
   },
   {
     "camis": "50168093",
@@ -1870,10 +1870,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10016",
     "phone": "7186121720",
     "firstInspection": "2026-06-03",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.cotti.com/",
+    "domain": "cotti.com",
+    "email": "coop@cotticoffee.com",
+    "allEmails": "coop@cotticoffee.com; bd_store@cotticoffee.com; press@cotticoffee.com; sc@cotticoffee.com"
   },
   {
     "camis": "50181127",
@@ -1900,8 +1900,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11238",
     "phone": "3474799986",
     "firstInspection": "2026-06-02",
-    "website": "",
-    "domain": "",
+    "website": "https://www.inakasushi597.com/",
+    "domain": "inakasushi597.com",
     "email": "",
     "allEmails": ""
   },
@@ -1915,8 +1915,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11230",
     "phone": "8455488230",
     "firstInspection": "2026-06-02",
-    "website": "",
-    "domain": "",
+    "website": "https://cafechocolatny.com/",
+    "domain": "cafechocolatny.com",
     "email": "",
     "allEmails": ""
   },
@@ -1930,7 +1930,7 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10036",
     "phone": "9175534651",
     "firstInspection": "2026-06-02",
-    "website": "",
+    "website": "https://www.instagram.com/nobodys_perfect_nyc/",
     "domain": "",
     "email": "",
     "allEmails": ""
@@ -1945,10 +1945,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11235",
     "phone": "7188149100",
     "firstInspection": "2026-06-02",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.barduck.nyc/",
+    "domain": "barduck.nyc",
+    "email": "barducknyc@gmail.com",
+    "allEmails": "barducknyc@gmail.com"
   },
   {
     "camis": "50182459",
@@ -1960,10 +1960,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11238",
     "phone": "3202675746",
     "firstInspection": "2026-06-02",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.canyoncoffee.co/brooklyn",
+    "domain": "canyoncoffee.co",
+    "email": "hello@canyoncoffee.co",
+    "allEmails": "hello@canyoncoffee.co"
   },
   {
     "camis": "50187218",
@@ -1990,10 +1990,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11235",
     "phone": "3476280818",
     "firstInspection": "2026-06-01",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.geokhinkalibar.com/",
+    "domain": "geokhinkalibar.com",
+    "email": "NYC@GEOFOODBAR.COM",
+    "allEmails": "NYC@GEOFOODBAR.COM"
   },
   {
     "camis": "50175868",
@@ -2005,7 +2005,7 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11216",
     "phone": "9176359185",
     "firstInspection": "2026-06-01",
-    "website": "",
+    "website": "https://www.facebook.com/YemeniSocotraRestaurant/",
     "domain": "",
     "email": "",
     "allEmails": ""
@@ -2050,8 +2050,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10075",
     "phone": "2128797160",
     "firstInspection": "2026-06-01",
-    "website": "",
-    "domain": "",
+    "website": "https://www.elizabar.com/nightshift.aspx",
+    "domain": "elizabar.com",
     "email": "",
     "allEmails": ""
   },
@@ -2065,10 +2065,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10075",
     "phone": "9173381792",
     "firstInspection": "2026-06-01",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.sushinoz.com/",
+    "domain": "sushinoz.com",
+    "email": "reservations@sushinoz.com",
+    "allEmails": "reservations@sushinoz.com"
   },
   {
     "camis": "50180230",
@@ -2230,10 +2230,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11237",
     "phone": "6507765672",
     "firstInspection": "2026-05-30",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.silobrooklyn.com/",
+    "domain": "silobrooklyn.com",
+    "email": "contact@silobrooklyn.com",
+    "allEmails": "contact@silobrooklyn.com; tables@silobrooklyn.com; booking@silobrooklyn.com; lostandfound@silobrooklyn.com; a11y@silobrooklyn.com"
   },
   {
     "camis": "50178296",
@@ -2245,10 +2245,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "6464299782",
     "firstInspection": "2026-05-30",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.manhatto.com/",
+    "domain": "manhatto.com",
+    "email": "manhatto.info@gmail.com",
+    "allEmails": "manhatto.info@gmail.com"
   },
   {
     "camis": "50180235",
@@ -2260,10 +2260,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "2123376092",
     "firstInspection": "2026-05-30",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://greatperformances.com/",
+    "domain": "greatperformances.com",
+    "email": "celebratefood@greatperformances.com",
+    "allEmails": "celebratefood@greatperformances.com"
   },
   {
     "camis": "50158081",
@@ -2275,10 +2275,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "9295263330",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://themanner.com/",
+    "domain": "themanner.com",
+    "email": "reservations@soho.themanner.com",
+    "allEmails": "reservations@soho.themanner.com; sales@soho.themanner.com; press@soho.themanner.com"
   },
   {
     "camis": "50058751",
@@ -2290,8 +2290,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10036",
     "phone": "2126308889",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
+    "website": "https://www.circleline.com/",
+    "domain": "circleline.com",
     "email": "",
     "allEmails": ""
   },
@@ -2320,8 +2320,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "7186121720",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
+    "website": "https://www.cotti.com/#/home/index",
+    "domain": "cotti.com",
     "email": "",
     "allEmails": ""
   },
@@ -2335,8 +2335,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "6463706275",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
+    "website": "https://lecafecoffee.com/",
+    "domain": "lecafecoffee.com",
     "email": "",
     "allEmails": ""
   },
@@ -2350,8 +2350,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "9172244267",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
+    "website": "https://us.farmerj.com/location/ny-31west-52nd-street/",
+    "domain": "us.farmerj.com",
     "email": "",
     "allEmails": ""
   },
@@ -2365,8 +2365,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "7188084160",
     "firstInspection": "2026-05-29",
-    "website": "",
-    "domain": "",
+    "website": "https://tenonvegansushi.com/",
+    "domain": "tenonvegansushi.com",
     "email": "",
     "allEmails": ""
   },
@@ -2380,10 +2380,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10014",
     "phone": "6465595137",
     "firstInspection": "2026-05-28",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.osteriacarlina.com/",
+    "domain": "osteriacarlina.com",
+    "email": "info@osteriacarlina.com",
+    "allEmails": "info@osteriacarlina.com; reservations@osteriacarlina.com; office@osteriacarlina.com"
   },
   {
     "camis": "50175539",
@@ -2425,8 +2425,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10010",
     "phone": "6197409242",
     "firstInspection": "2026-05-28",
-    "website": "",
-    "domain": "",
+    "website": "https://www.lostacos1.com/location/madison-square-park/",
+    "domain": "lostacos1.com",
     "email": "",
     "allEmails": ""
   },
@@ -2455,10 +2455,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11201",
     "phone": "3473921179",
     "firstInspection": "2026-05-28",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://posxasianbistro.com/",
+    "domain": "posxasianbistro.com",
+    "email": "info@posxasianbistro.com",
+    "allEmails": "info@posxasianbistro.com"
   },
   {
     "camis": "50182113",
@@ -2485,10 +2485,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11224",
     "phone": "7183735862",
     "firstInspection": "2026-05-27",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://lunaparknyc.com/",
+    "domain": "lunaparknyc.com",
+    "email": "info@lunaparknyc.com",
+    "allEmails": "info@lunaparknyc.com; guestservices@lunaparknyc.com; sales@lunaparknyc.com; marketing@lunaparknyc.com; media@lunaparknyc.com"
   },
   {
     "camis": "50179507",
@@ -2515,8 +2515,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10034",
     "phone": "2272362068",
     "firstInspection": "2026-05-27",
-    "website": "",
-    "domain": "",
+    "website": "https://tacomix.com/",
+    "domain": "tacomix.com",
     "email": "",
     "allEmails": ""
   },
@@ -2545,8 +2545,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11222",
     "phone": "6464342912",
     "firstInspection": "2026-05-27",
-    "website": "",
-    "domain": "",
+    "website": "https://okume.us/",
+    "domain": "okume.us",
     "email": "",
     "allEmails": ""
   },
@@ -2560,8 +2560,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11224",
     "phone": "7189424200",
     "firstInspection": "2026-05-27",
-    "website": "",
-    "domain": "",
+    "website": "https://tomsbrooklyn.com/",
+    "domain": "tomsbrooklyn.com",
     "email": "",
     "allEmails": ""
   },
@@ -2590,8 +2590,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10001",
     "phone": "9178481799",
     "firstInspection": "2026-05-27",
-    "website": "",
-    "domain": "",
+    "website": "https://thisbowl.com/",
+    "domain": "thisbowl.com",
     "email": "",
     "allEmails": ""
   },
@@ -2605,10 +2605,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "6464499099",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://hamptonchutney.com/",
+    "domain": "hamptonchutney.com",
+    "email": "info@hamptonchutney.com",
+    "allEmails": "info@hamptonchutney.com"
   },
   {
     "camis": "50178998",
@@ -2650,10 +2650,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "4695133958",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.tallowsteak.com/",
+    "domain": "tallowsteak.com",
+    "email": "info@tallowsteak.com",
+    "allEmails": "info@tallowsteak.com"
   },
   {
     "camis": "50182573",
@@ -2680,8 +2680,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "7188109857",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
+    "website": "https://www.tompkinssquarebagels.com/",
+    "domain": "tompkinssquarebagels.com",
     "email": "",
     "allEmails": ""
   },
@@ -2695,8 +2695,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10012",
     "phone": "2122543480",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
+    "website": "https://www.comedycellar.com/olive-tree-cafe/",
+    "domain": "comedycellar.com",
     "email": "",
     "allEmails": ""
   },
@@ -2710,8 +2710,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "9295034272",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
+    "website": "https://pastasoleny.com/",
+    "domain": "pastasoleny.com",
     "email": "",
     "allEmails": ""
   },
@@ -2725,10 +2725,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "6466929912",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.tonchinus.com/",
+    "domain": "tonchinus.com",
+    "email": "info@tonchinhospitality.com",
+    "allEmails": "info@tonchinhospitality.com; info@foodexny.com"
   },
   {
     "camis": "50182290",
@@ -2740,10 +2740,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "9176731406",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.chickchicknyc.com/",
+    "domain": "chickchicknyc.com",
+    "email": "chickchicknyc@gmail.com",
+    "allEmails": "chickchicknyc@gmail.com"
   },
   {
     "camis": "50182319",
@@ -2770,8 +2770,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10001",
     "phone": "7186121720",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
+    "website": "https://www.cotti.com/#/home/index",
+    "domain": "cotti.com",
     "email": "",
     "allEmails": ""
   },
@@ -2800,8 +2800,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11214",
     "phone": "7182651130",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
+    "website": "https://www.bk.com/",
+    "domain": "bk.com",
     "email": "",
     "allEmails": ""
   },
@@ -2845,10 +2845,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "5513259481",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://shaverhall.com/",
+    "domain": "shaverhall.com",
+    "email": "info@shaverhall.com",
+    "allEmails": "info@shaverhall.com"
   },
   {
     "camis": "50182567",
@@ -2860,10 +2860,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "3124934694",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://shaverhall.com/",
+    "domain": "shaverhall.com",
+    "email": "info@shaverhall.com",
+    "allEmails": "info@shaverhall.com"
   },
   {
     "camis": "50182621",
@@ -2875,10 +2875,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10018",
     "phone": "9714354631",
     "firstInspection": "2026-05-26",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://shaverhall.com/",
+    "domain": "shaverhall.com",
+    "email": "info@shaverhall.com",
+    "allEmails": "info@shaverhall.com"
   },
   {
     "camis": "50182741",
@@ -2920,8 +2920,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11225",
     "phone": "7182451777",
     "firstInspection": "2026-05-22",
-    "website": "",
-    "domain": "",
+    "website": "https://www.originalmikespizza.com/",
+    "domain": "originalmikespizza.com",
     "email": "",
     "allEmails": ""
   },
@@ -2935,10 +2935,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10022",
     "phone": "2126257777",
     "firstInspection": "2026-05-22",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.dukeeatery.com/",
+    "domain": "dukeeatery.com",
+    "email": "orders.dukeeatery1251@gmail.com",
+    "allEmails": "orders.dukeeatery1251@gmail.com"
   },
   {
     "camis": "50116922",
@@ -2950,8 +2950,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11222",
     "phone": "6504659021",
     "firstInspection": "2026-05-22",
-    "website": "",
-    "domain": "",
+    "website": "https://www.eavesdrop.nyc/",
+    "domain": "eavesdrop.nyc",
     "email": "",
     "allEmails": ""
   },
@@ -2980,8 +2980,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10038",
     "phone": "9172614310",
     "firstInspection": "2026-05-22",
-    "website": "",
-    "domain": "",
+    "website": "https://locations.wendys.com/united-states/ny/new-york/111-fulton-street",
+    "domain": "locations.wendys.com",
     "email": "",
     "allEmails": ""
   },
@@ -2995,8 +2995,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10022",
     "phone": "2126757710",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://www.nycdragshow.com/",
+    "domain": "nycdragshow.com",
     "email": "",
     "allEmails": ""
   },
@@ -3010,8 +3010,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10014",
     "phone": "9208191122",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://kithivy.com/",
+    "domain": "kithivy.com",
     "email": "",
     "allEmails": ""
   },
@@ -3040,8 +3040,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11201",
     "phone": "3478726183",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://vanleeuwenicecream.com/scoop-shops/",
+    "domain": "vanleeuwenicecream.com",
     "email": "",
     "allEmails": ""
   },
@@ -3100,8 +3100,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10019",
     "phone": "9299995998",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://www.thaipavilionnyc.com/",
+    "domain": "thaipavilionnyc.com",
     "email": "",
     "allEmails": ""
   },
@@ -3130,8 +3130,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10014",
     "phone": "6465535550",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://www.dandelionnewyork.com/",
+    "domain": "dandelionnewyork.com",
     "email": "",
     "allEmails": ""
   },
@@ -3145,8 +3145,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11225",
     "phone": "7189750099",
     "firstInspection": "2026-05-21",
-    "website": "",
-    "domain": "",
+    "website": "https://luosburgers.com/",
+    "domain": "luosburgers.com",
     "email": "",
     "allEmails": ""
   },
@@ -3400,8 +3400,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10036",
     "phone": "6465758177",
     "firstInspection": "2026-05-16",
-    "website": "",
-    "domain": "",
+    "website": "https://hanayaomakase.com/",
+    "domain": "hanayaomakase.com",
     "email": "",
     "allEmails": ""
   },
@@ -3715,10 +3715,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10032",
     "phone": "9293618669",
     "firstInspection": "2026-05-14",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://halalchicksandplatters.shop/",
+    "domain": "halalchicksandplatters.shop",
+    "email": "halalchicksandplatters.shop@gmail.com",
+    "allEmails": "halalchicksandplatters.shop@gmail.com"
   },
   {
     "camis": "50184280",
@@ -3745,8 +3745,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10011",
     "phone": "9132719446",
     "firstInspection": "2026-05-14",
-    "website": "",
-    "domain": "",
+    "website": "https://brissta.com/",
+    "domain": "brissta.com",
     "email": "",
     "allEmails": ""
   },
@@ -3865,10 +3865,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10022",
     "phone": "2125183276",
     "firstInspection": "2026-05-13",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://mitaniny.com/",
+    "domain": "mitaniny.com",
+    "email": "reservations@mitaniny.com",
+    "allEmails": "reservations@mitaniny.com"
   },
   {
     "camis": "50182369",
@@ -4105,10 +4105,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10003",
     "phone": "2018931848",
     "firstInspection": "2026-05-11",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.rollcrafthandroll.com/",
+    "domain": "rollcrafthandroll.com",
+    "email": "info@rollcrafthandroll.com",
+    "allEmails": "info@rollcrafthandroll.com"
   },
   {
     "camis": "50183671",
@@ -4915,8 +4915,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10033",
     "phone": "7187360999",
     "firstInspection": "2026-05-04",
-    "website": "",
-    "domain": "",
+    "website": "https://www.bk.com/",
+    "domain": "bk.com",
     "email": "",
     "allEmails": ""
   },
@@ -4945,8 +4945,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11226",
     "phone": "3474968448",
     "firstInspection": "2026-05-04",
-    "website": "",
-    "domain": "",
+    "website": "https://halseygrilltakeout.com/",
+    "domain": "halseygrilltakeout.com",
     "email": "",
     "allEmails": ""
   },
@@ -5005,8 +5005,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10009",
     "phone": "9173882198",
     "firstInspection": "2026-05-04",
-    "website": "",
-    "domain": "",
+    "website": "https://www.cornerbistrony.com/",
+    "domain": "cornerbistrony.com",
     "email": "",
     "allEmails": ""
   },
@@ -5350,10 +5350,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "11217",
     "phone": "3475378638",
     "firstInspection": "2026-05-01",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.brooklynfrenchbakers.com/",
+    "domain": "brooklynfrenchbakers.com",
+    "email": "contact@brooklynfrenchbakers.com",
+    "allEmails": "contact@brooklynfrenchbakers.com"
   },
   {
     "camis": "50183810",
@@ -7105,8 +7105,8 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10001",
     "phone": "7184158888",
     "firstInspection": "2026-04-20",
-    "website": "",
-    "domain": "",
+    "website": "https://malapandanyc.com/",
+    "domain": "malapandanyc.com",
     "email": "",
     "allEmails": ""
   },
@@ -8905,10 +8905,10 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "zipcode": "10014",
     "phone": "6463703370",
     "firstInspection": "2026-04-07",
-    "website": "",
-    "domain": "",
-    "email": "",
-    "allEmails": ""
+    "website": "https://www.fellinicoffee.com/",
+    "domain": "fellinicoffee.com",
+    "email": "hello@fellinicoffee.com",
+    "allEmails": "hello@fellinicoffee.com"
   },
   {
     "camis": "50180648",
@@ -9735,4 +9735,4 @@ window.VESTIBULE_DATA.RESTAURANTS = [
     "email": "",
     "allEmails": ""
   }
-];
+]
